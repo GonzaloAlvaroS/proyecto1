@@ -1,0 +1,102 @@
+.tecnicastodo{
+    height: 1404px;
+}
+.tecnicasmalditas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    font-size: 40px;
+    color: #000F38;
+    font-weight: 600;
+}
+.tecnicasmalditas1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 450;
+    padding-top: 15px;
+    color: #212;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+.tecnicasmalditas2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 450;
+    padding-top: 15px;
+    color: #212;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+.tiposdetecnica{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    padding: 55px;
+    margin-top: -20px;
+    position: relative
+}
+.tiposdetecnica-left{
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    margin-right: 50px;
+}
+.tiposdetecnica-right{
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+.tiposdetecnica-center{
+    display: flex;
+    flex-direction: column; /* Alinea los hijos (imagen y texto) en una columna */
+    align-items: center; /* Centra los hijos horizontalmente */
+    justify-content: center; /* Centra los hijos verticalmente si es necesario */
+    text-align: center; /* Asegura que el texto dentro de cualquier hijo también esté centrado */
+}
+.tiposdetecnicasub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.tiposdetecnicasub1{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    padding-top: 10px;
+}
+.manipulacionenergia{
+    width: 450px;
+    cursor: pointer;
+}
+.tecnicainnata{
+    width: 450px;
+    cursor: pointer;
+}
+.tecnicabarrera{
+    padding-top: 30px;
+    width: 450px;
+    cursor: pointer;
+}
+.tecnicaantidominio{
+    width: 450px;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.expansiondominio{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 450px;
+    cursor: pointer;
+}
+
+

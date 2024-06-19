@@ -1,0 +1,857 @@
+
+/* Contenido de toda la pagina */
+
+.infomegumitodo{
+    height: 4623px;
+    margin: 0 auto;  
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Todas las Lineas de "Informacion General" */
+
+.infomegumilineastodo{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(-25px);
+}
+
+/* Lineas por separado de "Informacion General" */
+
+.megumiblue-lineA{
+    height: 65px;
+    background-color: #6205b9;
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    width: 100%; 
+    z-index: 1000;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: white; 
+}
+.megumiblue-lineC{
+  height: 65px;
+  background-color: #6205b9;
+  top: 544px;
+  left: 0px;
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+}
+.megumiblue-linemini1{
+    height: 15px;
+    background-color: #6205b9;
+    top: 490px;
+    left: 70px;
+    width: 29.5%;
+    position: absolute;
+    z-index: 1000;
+}
+.megumiblue-linemini2{
+    height: 15px;
+    background-color: #6205b9;
+    top: 264px;
+    left: 70px;
+    width: 29.5%;
+    position: absolute;
+    z-index: 1000;
+}
+.megumiblue-linemini3{
+    height: 241px;
+    background-color: #6205b9;
+    top: 264px;
+    left: 55px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.megumiblue-linemini4{
+    height: 241px;
+    background-color: #6205b9;
+    top: 264px;
+    left: 466px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.megumiblue-linemini5{
+    height: 39px;
+    background-color: #6205b9;
+    top: 505px;
+    left: 261px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.megumiblue-linemini6{
+    height: 39px;
+    background-color: #6205b9;
+    top: 225px;
+    left: 261px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.megumiblue-linemini7{
+    height: 319px;
+    background-color: #6205b9;
+    top: 225px;
+    left: 1273px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.megumiblue-linemini8{
+    height: 319px;
+    background-color: #6205b9;
+    top: 225px;
+    left: 1038px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+
+/* Titulo de "Informacion General" */
+
+.megumilineastitulo{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+/* Contenido de "Informacion General" */
+
+/* Imagenes de "Informacion General" */
+
+.infomegumi{
+    width: 396px;
+    height: 211px;
+    transform: translateX(70px) translateY(254px);
+}
+.megumiactual{
+    width: 172px;
+    height: 256px;
+    transform: translateX(1077px) translateY(-251px);   
+}
+.megumiprincipio{
+    width: 172px;
+    height: 256px;
+    transform: translateX(1077px) translateY(-251px);
+}
+
+/* Datos de "Informacion General" */
+
+.meguminombre{
+    transform: translateX(523px) translateY(44px);
+    font-weight: 400;
+    font-size: large;
+}
+.megumiedad{
+    transform: translateX(523px) translateY(77px);
+    font-weight: 400;
+    font-size: large;
+}
+.megumigenero{
+    transform: translateX(718px) translateY(54px);
+    font-weight: 400;
+    font-size: large;
+}
+.megumiespecie{
+    transform: translateX(523px) translateY(96px);
+    font-weight: 400;
+    font-size: large;
+}
+.megumiocupacion{
+    transform: translateX(718px) translateY(73px);
+    font-weight: 400;
+    font-size: large;
+}
+.megumidebut{
+    transform: translateX(523px) translateY(106px);
+    font-weight: 400;
+    font-size: large;
+}
+.megumiestado1{
+    transform: translateX(810px) translateY(83px);
+    font-weight: 400;
+    font-size: large;
+}
+.megumiestado2{
+    transform: translateX(880px) translateY(60px);
+    font-weight: 400;
+    font-size: large;
+}
+.megumiestado3{
+    transform: translateX(880px) translateY(60px);
+    font-weight: 400;
+    font-size: large;
+}
+
+/* Datos comparativos del personaje de "Informacion General" */
+
+.megumiestado{
+    transform: translateX(1073px) translateY(84px);
+    font-weight: 400;
+    font-size: large;
+}
+.megumiestadover{
+    transform: translateX(1141px) translateY(61px);
+    font-weight: 400;
+    font-size: large;
+    width: 0%;
+    color: rgb(42, 114, 209); 
+    text-decoration: underline;
+    cursor: pointer;
+}
+.megumiestadopricipio{
+    transform: translateX(1180px) translateY(40px);
+    font-weight: 500;
+}
+.megumiestadoactual{
+    transform: translateX(1186px) translateY(40px);
+    font-weight: 500;
+}
+.hidden {
+    display: none;
+}
+
+/* Contenido total de "Informacion Expandida" */
+
+.megumiinformacionexpandida{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+/* Descripcion de "Informacion Expandida" */
+
+.megumidescripcion{
+    margin-top: -93px;
+    text-align: justify;   
+}
+.megumidescripcion p{
+    font-size: 19px;
+    transform: translateY(5px);
+}
+
+/* Apariencia y Personalidad de "Informacion Expandida" */
+
+.megumiap_per{
+    transform: translateY(32px);
+    text-align: justify;   
+}
+.megumiap_per p{
+    font-size: 19px;
+}
+.megumiapariencia{
+    transform: translateY(5px);
+}
+.megumipersonalidad{
+    transform: translateY(25px);
+}
+
+/* Habilidades y Poderes de "Informacion Expandida" */
+
+.megumihab_pod{
+    transform: translateY(85px);
+    text-align: justify;   
+}
+.megumihab_pod p{
+    font-size: 19px;
+}
+.megumifuerza{
+    transform: translateY(5px);
+}
+.megumivelocidadresistencia{
+    width: 810px;
+    transform: translateY(25px);
+}
+.megumiskill{
+    transform: translateY(45px);
+    width: 810px;
+}
+.megumiaprendiz{
+    transform: translateY(65px);
+}
+
+/* Imagen de Habilidades y Poderes de "Informacion Expandida" */
+
+.megumihab_pod img{
+    width: 370px;
+    border-radius: 10px;
+    transform: translateX(831px) translateY(-248px);
+}
+
+/* Subtitulo para tecnicas de "Informacion Expandida" */
+
+.megumihab_pod h2{
+    transform: translateY(-115px);
+}
+
+/* Lineas laterales de Tecnicas de MDEM de "Informacion Expandida" */
+
+.megumilineas{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(-250px);
+}
+
+/* Lineas interiores de Tecnicas de MDEM de "Informacion Expandida" */
+
+.megumisublineas{
+    transform: translateX(-55px) translateY(-370px);
+}
+
+/* Lineas laterales de Tecnicas Innatas de "Informacion Expandida" */
+
+.megumilineas2{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(68px);
+}
+
+/* Lineas interiores de Tecnicas Innatas de "Informacion Expandida" */
+
+.megumisublineas2{
+    transform: translateX(-55px) translateY(-52px);
+}
+
+/* Lineas laterales de Tecnicas Innatas (Extensiones) de "Informacion Expandida" */
+
+.megumilineas3{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(2166px);
+}
+
+/* Lineas interiores de Tecnicas Innatas (Extensiones) de "Informacion Expandida" */
+
+.megumisublineas3{
+    transform: translateX(-55px) translateY(2550px);
+}
+
+/* Lineas laterales de Tecnicas Antidominio de "Informacion Expandida" */
+
+.megumilineas4{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(2484px);
+}
+
+/* Lineas interiores de Tecnicas Antidominio de "Informacion Expandida" */
+
+.megumisublineas4{
+    transform: translateX(-55px) translateY(2360px);
+}
+
+/* Lineas laterales por separado de Tecnicas de MDEM de "Informacion Expandida" */
+
+.megumiblue-line-subtopA{
+    height: 50px;
+    background-color: #6205b9;
+    position: absolute;
+    top: 180px;
+    left: 88px;
+    width: 85%; 
+    z-index: 1000;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: white; 
+}
+.megumiblue-line-subtopB{
+    height: 270px;
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 85px;
+    z-index: 1000;
+}
+.megumiblue-line-subtopC{
+    height: 20px;
+    background-color: #6205b9;
+    top: 430px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.megumiblue-line-subtopD{
+    height: 270px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 1097px;
+    z-index: 1000;
+}
+
+/* Lineas interiores por separado de Tecnicas de MDEM de "Informacion Expandida" */
+
+.megumiblue-line-subtopB-1{
+    height: 220px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 350px;
+    left: 769px;
+    z-index: 1000;
+}
+
+/* Lineas laterales por separado de Tecnicas Innatas de "Informacion Expandida" */
+
+.megumiblue-line-subtopB2{
+    height: 2049px;
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 85px;
+    z-index: 1000;
+}
+.megumiblue-line-subtopC2{
+    height: 20px;
+    background-color: #6205b9;
+    top: 2209px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.megumiblue-line-subtopD2{
+    height: 2049px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 1097px;
+    z-index: 1000;
+}
+
+/* Lineas interiores por separado de Tecnicas Innatas de "Informacion Expandida" */
+
+.megumiblue-line-subtopA2-1{
+    height: 35px;
+    background-color: #6205b9;
+    top: 550px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.megumiblue-line-subtopA2-2{
+    height: 20px;
+    background-color: #6205b9;
+    top: 785px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.megumiblue-line-subtopA2-3{
+    height: 20px;
+    background-color: #6205b9;
+    top: 1005px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.megumiblue-line-subtopA2-4{
+    height: 20px;
+    background-color: #6205b9;
+    top: 1226px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.megumiblue-line-subtopA2-5{
+    height: 20px;
+    background-color: #6205b9;
+    top: 1447px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.megumiblue-line-subtopA2-6{
+    height: 20px;
+    background-color: #6205b9;
+    top: 1667px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.megumiblue-line-subtopA2-7{
+    height: 20px;
+    background-color: #6205b9;
+    top: 1887px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.megumiblue-line-subtopA2-8{
+    height: 20px;
+    background-color: #6205b9;
+    top: 2108px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.megumiblue-line-subtopB2-1{
+    height: 1999px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 350px;
+    left: 769px;
+    z-index: 1000;
+}
+
+/* Lineas laterales por separado de Tecnicas Innatas (Extensiones) de "Informacion Expandida" */
+
+.megumiblue-line-subtopB3{
+    height: 270px;
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 85px;
+    z-index: 1000;
+}
+.megumiblue-line-subtopC3{
+    height: 20px;
+    background-color: #6205b9;
+    top: 430px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.megumiblue-line-subtopD3{
+    height: 270px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 1097px;
+    z-index: 1000;
+}
+
+/* Lineas interiores por separado de Tecnicas Innatas (Extensiones) de "Informacion Expandida" */
+
+.megumiblue-line-subtopB3-1{
+    height: 220px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: -154px;
+    left: 769px;
+    z-index: 1000;
+}
+
+/* Lineas laterales por separado de Expansion de Dominio de "Informacion Expandida" */
+
+.megumiblue-line-subtopB4{
+    height: 270px;
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 85px;
+    z-index: 1000;
+}
+.megumiblue-line-subtopC4{
+    height: 20px;
+    background-color: #6205b9;
+    top: 430px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.megumiblue-line-subtopD4{
+    height: 270px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 1097px;
+    z-index: 1000;
+}
+
+/* Lineas interiores por separado de Expansion de Dominio de "Informacion Expandida" */
+
+.megumiblue-line-subtopB4-1{
+    height: 220px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 350px;
+    left: 769px;
+    z-index: 1000;
+}
+
+/* Subtitulos de cada apartado de tecnica de "Informacion Expandida" */
+
+.megumilineassubtitulo{
+    font-size: 25px;
+    font-weight: 500;
+}
+.megumilineassubtitulo2{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* Informacion Tecnicas de MDEM de "Informacion Expandida" */
+
+.megumiinfo-todo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative;
+    transform: translateX(-160px);
+
+}
+
+/* Contenido Izquierda (Texto) */
+
+.megumiinfo-left{
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+
+/* Contenido Derecha (Imagenes) */
+
+.megumiinfo-right{
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+
+/* Informacion Tecnicas Innatas de "Informacion Expandida" */
+
+.megumiinfo-todo2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative;
+    transform: translateX(-10px) translateY(7px);
+}
+      
+/* Contenido Izquierda (Texto) */
+
+.megumiinfo-left2{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateX(9px) translateY(379px);
+}
+
+/* Contenido Derecha (Imagenes) */
+
+.megumiinfo-right2{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateX(9.5px) translateY(138px);
+}
+
+/* Informacion Tecnicas Innatas (Extensiones) de "Informacion Expandida" */
+
+.megumiinfo-todo3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative;
+    transform: translateX(-160px) translateY(1080px);
+}
+      
+/* Contenido Izquierda (Texto) */
+
+.megumiinfo-left3{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateY(300px);
+}
+      
+/* Contenido Derecha (Imagenes) */
+
+.megumiinfo-right3{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateY(300px);
+}
+
+/* Informacion Expansion de Dominio de "Informacion Expandida" */
+
+.megumiinfo-todo4{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative;
+    transform: translateX(-160px) translateY(1146px);   
+}
+      
+/* Contenido Izquierda (Texto) */
+
+.megumiinfo-left4{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateY(147px);
+}
+     
+/* Contenido Derecha (Imagenes) */
+
+.megumiinfo-right4{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateY(379px);
+}
+
+/* Imagenes de tecnicas de "Informacion Expandida" */
+
+.megumitecnicas1{      
+    width: 300px;
+    transform: translateX(183px) translateY(81px);
+}
+.megumitecnicas2{     
+    width: 300px;
+    transform: translateX(-117px) translateY(316px);
+}
+.megumitecnicas3{      
+    width: 300px;
+    transform: translateX(183px) translateY(364px);
+}
+.megumitecnicas4{     
+    width: 300px; 
+    transform: translateX(-117px) translateY(585px);
+}
+.megumitecnicas5-1{
+    width: 300px; 
+    transform: translateX(183px) translateY(632px);
+}
+.megumitecnicas6{
+    width: 300px; 
+    transform: translateX(-117px) translateY(853px);
+}
+.megumitecnicas7{
+    width: 300px; 
+    transform: translateX(183px) translateY(899.5px);
+}
+.megumitecnicas8{
+    width: 300px; 
+    transform: translateX(-117px) translateY(1120.5px);
+}
+.megumitecnicas9{
+    width: 300px; 
+    transform: translateX(183px) translateY(1168.5px);
+}
+
+/* Informaciones de tecnicas de "Informacion Expandida" */
+
+.megumicantidadenergia{
+    transform: translateX(118px) translateY(80px);
+}
+.megumicantidadenergia p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.megumi10sombras{
+    transform: translateX(118px) translateY(-161px);
+}
+.megumi10sombras p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.megumiperros{
+    transform: translateX(118px) translateY(-30px);
+}
+.megumiperros p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.megumiperrototal{
+    transform: translateX(118px) translateY(126px);
+}
+.megumiperrototal p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.meguminue{
+    transform: translateX(118px) translateY(262px);
+}
+.meguminue p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.megumiserpiente{
+    transform: translateX(118px) translateY(399px);
+}
+.megumiserpiente p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.megumisapo{
+    transform: translateX(118px) translateY(556px);
+}
+.megumisapo p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.megumielefante{
+    transform: translateX(118px) translateY(692px);
+}
+.megumielefante p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.megumiconejos{
+    transform: translateX(118px) translateY(848px);
+}
+.megumiconejos p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.megumimahoraga{
+    transform: translateX(118px) translateY(985px);
+}
+.megumimahoraga p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}

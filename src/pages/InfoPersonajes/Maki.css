@@ -1,0 +1,537 @@
+
+/* Contenido de toda la pagina */
+
+.infomakitodo{
+    height: 2450px;
+    margin: 0 auto;  
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Todas las Lineas de "Informacion General" */
+
+.infomakilineastodo{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(-25px);
+}
+
+/* Lineas por separado de "Informacion General" */
+
+.makiblue-lineA{
+    height: 65px;
+    background-color: #6205b9;
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    width: 100%; 
+    z-index: 1000;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: white; 
+}
+.makiblue-lineC{
+  height: 65px;
+  background-color: #6205b9;
+  top: 544px;
+  left: 0px;
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+}
+.makiblue-linemini1{
+    height: 15px;
+    background-color: #6205b9;
+    top: 490px;
+    left: 70px;
+    width: 29.5%;
+    position: absolute;
+    z-index: 1000;
+}
+.makiblue-linemini2{
+    height: 15px;
+    background-color: #6205b9;
+    top: 264px;
+    left: 70px;
+    width: 29.5%;
+    position: absolute;
+    z-index: 1000;
+}
+.makiblue-linemini3{
+    height: 241px;
+    background-color: #6205b9;
+    top: 264px;
+    left: 55px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.makiblue-linemini4{
+    height: 241px;
+    background-color: #6205b9;
+    top: 264px;
+    left: 466px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.makiblue-linemini5{
+    height: 39px;
+    background-color: #6205b9;
+    top: 505px;
+    left: 261px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.makiblue-linemini6{
+    height: 39px;
+    background-color: #6205b9;
+    top: 225px;
+    left: 261px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.makiblue-linemini7{
+    height: 319px;
+    background-color: #6205b9;
+    top: 225px;
+    left: 1273px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.makiblue-linemini8{
+    height: 319px;
+    background-color: #6205b9;
+    top: 225px;
+    left: 1038px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+
+/* Titulo de "Informacion General" */
+
+.makilineastitulo{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+/* Contenido de "Informacion General" */
+
+/* Imagenes de "Informacion General" */
+
+.infomaki{
+    width: 396px;
+    height: 211px;
+    transform: translateX(70px) translateY(254px);
+}
+.makiactual{
+    width: 172px;
+    height: 256px;
+    transform: translateX(1077px) translateY(-251px);   
+}
+.makiprincipio{
+    width: 172px;
+    height: 256px;
+    transform: translateX(1077px) translateY(-251px);
+}
+
+/* Datos de "Informacion General" */
+
+.makinombre{
+    transform: translateX(523px) translateY(44px);
+    font-weight: 400;
+    font-size: large;
+}
+.makiedad{
+    transform: translateX(523px) translateY(77px);
+    font-weight: 400;
+    font-size: large;
+}
+.makigenero{
+    transform: translateX(718px) translateY(54px);
+    font-weight: 400;
+    font-size: large;
+}
+.makiespecie{
+    transform: translateX(523px) translateY(96px);
+    font-weight: 400;
+    font-size: large;
+}
+.makiocupacion{
+    transform: translateX(718px) translateY(73px);
+    font-weight: 400;
+    font-size: large;
+}
+.makidebut{
+    transform: translateX(523px) translateY(106px);
+    font-weight: 400;
+    font-size: large;
+}
+.makiestado1{
+    transform: translateX(810px) translateY(83px);
+    font-weight: 400;
+    font-size: large;
+}
+.makiestado2{
+    transform: translateX(880px) translateY(60px);
+    font-weight: 400;
+    font-size: large;
+}
+.makiestado3{
+    transform: translateX(880px) translateY(60px);
+    font-weight: 400;
+    font-size: large;
+}
+
+/* Datos comparativos del personaje de "Informacion General" */
+
+.makiestado{
+    transform: translateX(1073px) translateY(84px);
+    font-weight: 400;
+    font-size: large;
+}
+.makiestadover{
+    transform: translateX(1141px) translateY(61px);
+    font-weight: 400;
+    font-size: large;
+    width: 0%;
+    color: rgb(42, 114, 209); 
+    text-decoration: underline;
+    cursor: pointer;
+}
+.makiestadopricipio{
+    transform: translateX(1180px) translateY(40px);
+    font-weight: 500;
+}
+.makiestadoactual{
+    transform: translateX(1186px) translateY(40px);
+    font-weight: 500;
+}
+.hidden {
+    display: none;
+}
+
+/* Contenido total de "Informacion Expandida" */
+
+.makiinformacionexpandida{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+/* Descripcion de "Informacion Expandida" */
+
+.makidescripcion{
+    margin-top: -93px;
+    text-align: justify;   
+}
+.makidescripcion p{
+    font-size: 19px;
+    transform: translateY(5px);
+}
+
+/* Apariencia y Personalidad de "Informacion Expandida" */
+
+.makiap_per{
+    transform: translateY(32px);
+    text-align: justify;   
+}
+.makiap_per p{
+    font-size: 19px;
+}
+.makiapariencia{
+    transform: translateY(5px);
+}
+.makipersonalidad{
+    transform: translateY(25px);
+}
+
+/* Habilidades y Poderes de "Informacion Expandida" */
+
+.makihab_pod{
+    transform: translateY(85px);
+    text-align: justify;   
+}
+.makihab_pod p{
+    font-size: 19px;
+}
+.makifuerza{
+    transform: translateY(5px);
+}
+.makivelocidadresistencia{
+    width: 810px;
+    transform: translateY(25px);
+}
+.makiskill{
+    transform: translateY(45px);
+    width: 810px;
+}
+.makiaprendiz{
+    transform: translateY(65px);
+}
+
+/* Imagen de Habilidades y Poderes de "Informacion Expandida" */
+
+.makihab_pod img{
+    width: 370px;
+    border-radius: 10px;
+    transform: translateX(831px) translateY(-225px);
+}
+
+/* Subtitulo para tecnicas de "Informacion Expandida" */
+
+.makihab_pod h2{
+    transform: translateY(-115px);
+}
+
+/* Lineas laterales de Tecnicas de MDEM de "Informacion Expandida" */
+
+.makilineas{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(-250px);
+}
+
+/* Lineas interiores de Tecnicas de MDEM de "Informacion Expandida" */
+
+.makisublineas{
+    transform: translateX(-55px) translateY(-370px);
+}
+
+/* Lineas laterales de Tecnicas Innatas de "Informacion Expandida" */
+
+.makilineas2{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(68px);
+}
+
+/* Lineas interiores de Tecnicas Innatas de "Informacion Expandida" */
+
+.makisublineas2{
+    transform: translateX(-55px) translateY(-52px);
+}
+
+/* Lineas laterales por separado de Tecnicas de MDEM de "Informacion Expandida" */
+
+.makiblue-line-subtopA{
+    height: 50px;
+    background-color: #6205b9;
+    position: absolute;
+    top: 180px;
+    left: 88px;
+    width: 85%; 
+    z-index: 1000;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: white; 
+}
+.makiblue-line-subtopB{
+    height: 270px;
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 85px;
+    z-index: 1000;
+}
+.makiblue-line-subtopC{
+    height: 20px;
+    background-color: #6205b9;
+    top: 430px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.makiblue-line-subtopD{
+    height: 270px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 1097px;
+    z-index: 1000;
+}
+
+/* Lineas interiores por separado de Tecnicas de MDEM de "Informacion Expandida" */
+
+.makiblue-line-subtopB-1{
+    height: 220px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 350px;
+    left: 769px;
+    z-index: 1000;
+}
+
+/* Lineas laterales por separado de Tecnicas Innatas de "Informacion Expandida" */
+
+.makiblue-line-subtopB2{
+    height: 490px;
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 85px;
+    z-index: 1000;
+}
+.makiblue-line-subtopC2{
+    height: 20px;
+    background-color: #6205b9;
+    top: 650px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.makiblue-line-subtopD2{
+    height: 490px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 1097px;
+    z-index: 1000;
+}
+
+/* Lineas interiores por separado de Tecnicas Innatas de "Informacion Expandida" */
+
+.makiblue-line-subtopA2-1{
+    height: 20px;
+    background-color: #6205b9;
+    top: 550px;
+    left: 141px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.makiblue-line-subtopB2-1{
+    height: 440px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 350px;
+    left: 769px;
+    z-index: 1000;
+}
+
+/* Subtitulos de cada apartado de tecnica de "Informacion Expandida" */
+
+.makilineassubtitulo{
+    font-size: 25px;
+    font-weight: 500;
+}
+.makilineassubtitulo2{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* Informacion Tecnicas de MDEM de "Informacion Expandida" */
+
+.makiinfo-todo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative;
+    transform: translateX(-160px);
+}
+
+/* Contenido Izquierda (Texto) */
+
+.makiinfo-left{
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+
+/* Contenido Derecha (Imagenes) */
+
+.makiinfo-right{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateX(-1px);
+}
+
+/* Informacion Tecnicas Innatas de "Informacion Expandida" */
+
+.makiinfo-todo2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative;
+    transform: translateX(-10px) translateY(-234px);
+}
+      
+/* Contenido Izquierda (Texto) */
+
+.makiinfo-left2{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateY(379px);
+}
+
+/* Contenido Derecha (Imagenes) */
+
+.makiinfo-right2{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateX(-0.5px)  translateY(379px);
+}
+
+/* Imagenes de tecnicas de "Informacion Expandida" */
+
+.makitecnicas1{      
+    width: 300px;
+    transform: translateX(183px) translateY(81px);
+}
+.makitecnicas2{     
+    width: 300px;
+    transform: translateX(-117px) translateY(301px);
+}
+.makitecnicas3{      
+    width: 300px;
+    transform: translateX(183px) translateY(349px);
+}
+.makitecnicas4{     
+    width: 300px; 
+    transform: translateX(-117px) translateY(570px);
+}
+
+/* Informaciones de tecnicas de "Informacion Expandida" */
+
+.makicantidadenergia{
+    transform: translateX(118px) translateY(80px);
+}
+.makicantidadenergia p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+.makirestriccioncelestial1{
+    transform: translateX(118px) translateY(80px);
+}
+.makirestriccioncelestial1 p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.makirestriccioncelestial2{
+    transform: translateX(118px) translateY(176px);
+}
+.makirestriccioncelestial2 p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}

@@ -1,0 +1,575 @@
+
+/* Contenido de toda la pagina */
+
+.infopandatodo{
+    height: 2794px;
+    margin: 0 auto;  
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Todas las Lineas de "Informacion General" */
+
+.infopandalineastodo{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(-25px);
+}
+
+/* Lineas por separado de "Informacion General" */
+
+.pandablue-lineA{
+    height: 65px;
+    background-color: #6205b9;
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    width: 100%; 
+    z-index: 1000;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: white; 
+}
+.pandablue-lineC{
+  height: 65px;
+  background-color: #6205b9;
+  top: 544px;
+  left: 0px;
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+}
+.pandablue-linemini1{
+    height: 15px;
+    background-color: #6205b9;
+    top: 490px;
+    left: 70px;
+    width: 29.5%;
+    position: absolute;
+    z-index: 1000;
+}
+.pandablue-linemini2{
+    height: 15px;
+    background-color: #6205b9;
+    top: 264px;
+    left: 70px;
+    width: 29.5%;
+    position: absolute;
+    z-index: 1000;
+}
+.pandablue-linemini3{
+    height: 241px;
+    background-color: #6205b9;
+    top: 264px;
+    left: 55px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.pandablue-linemini4{
+    height: 241px;
+    background-color: #6205b9;
+    top: 264px;
+    left: 466px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.pandablue-linemini5{
+    height: 39px;
+    background-color: #6205b9;
+    top: 505px;
+    left: 261px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.pandablue-linemini6{
+    height: 39px;
+    background-color: #6205b9;
+    top: 225px;
+    left: 261px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.pandablue-linemini7{
+    height: 319px;
+    background-color: #6205b9;
+    top: 225px;
+    left: 1273px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.pandablue-linemini8{
+    height: 319px;
+    background-color: #6205b9;
+    top: 225px;
+    left: 1038px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+
+/* Titulo de "Informacion General" */
+
+.pandalineastitulo{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+/* Contenido de "Informacion General" */
+
+/* Imagenes de "Informacion General" */
+
+.infopanda{
+    width: 396px;
+    height: 211px;
+    transform: translateX(70px) translateY(254px);
+}
+.pandaactual{
+    width: 172px;
+    height: 256px;
+    transform: translateX(1077px) translateY(-251px);   
+}
+.pandaprincipio{
+    width: 172px;
+    height: 256px;
+    transform: translateX(1077px) translateY(-251px);
+}
+
+/* Datos de "Informacion General" */
+
+.pandanombre{
+    transform: translateX(523px) translateY(44px);
+    font-weight: 400;
+    font-size: large;
+}
+.pandaedad{
+    transform: translateX(523px) translateY(77px);
+    font-weight: 400;
+    font-size: large;
+}
+.pandagenero{
+    transform: translateX(730px) translateY(54px);
+    font-weight: 400;
+    font-size: large;
+}
+.pandaespecie{
+    transform: translateX(523px) translateY(96px);
+    font-weight: 400;
+    font-size: large;
+}
+.pandaocupacion{
+    transform: translateX(730px) translateY(73px);
+    font-weight: 400;
+    font-size: large;
+}
+.pandadebut{
+    transform: translateX(523px) translateY(106px);
+    font-weight: 400;
+    font-size: large;
+}
+.pandaestado1{
+    transform: translateX(810px) translateY(83px);
+    font-weight: 400;
+    font-size: large;
+}
+.pandaestado2{
+    transform: translateX(880px) translateY(60px);
+    font-weight: 400;
+    font-size: large;
+}
+.pandaestado3{
+    transform: translateX(880px) translateY(60px);
+    font-weight: 400;
+    font-size: large;
+}
+
+/* Datos comparativos del personaje de "Informacion General" */
+
+.pandaestado{
+    transform: translateX(1073px) translateY(84px);
+    font-weight: 400;
+    font-size: large;
+}
+.pandaestadover{
+    transform: translateX(1141px) translateY(61px);
+    font-weight: 400;
+    font-size: large;
+    width: 0%;
+    color: rgb(42, 114, 209); 
+    text-decoration: underline;
+    cursor: pointer;
+}
+.pandaestadopricipio{
+    transform: translateX(1180px) translateY(40px);
+    font-weight: 500;
+}
+.pandaestadoactual{
+    transform: translateX(1186px) translateY(40px);
+    font-weight: 500;
+}
+.hidden {
+    display: none;
+}
+
+/* Contenido total de "Informacion Expandida" */
+
+.pandainformacionexpandida{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+/* Descripcion de "Informacion Expandida" */
+
+.pandadescripcion{
+    margin-top: -93px;
+    text-align: justify;   
+}
+.pandadescripcion p{
+    font-size: 19px;
+    transform: translateY(5px);
+}
+
+/* Apariencia y Personalidad de "Informacion Expandida" */
+
+.pandaap_per{
+    transform: translateY(32px);
+    text-align: justify;   
+}
+.pandaap_per p{
+    font-size: 19px;
+}
+.pandaapariencia{
+    transform: translateY(5px);
+}
+.pandapersonalidad{
+    transform: translateY(25px);
+}
+
+/* Habilidades y Poderes de "Informacion Expandida" */
+
+.pandahab_pod{
+    transform: translateY(85px);
+    text-align: justify;   
+}
+.pandahab_pod p{
+    font-size: 19px;
+}
+.pandafuerza{
+    transform: translateY(5px);
+}
+.pandavelocidadresistencia{
+    width: 810px;
+    transform: translateY(25px);
+}
+.pandaskill{
+    transform: translateY(45px);
+    width: 810px;
+}
+.pandaaprendiz{
+    transform: translateY(65px);
+}
+
+/* Imagen de Habilidades y Poderes de "Informacion Expandida" */
+
+.pandahab_pod img{
+    width: 370px;
+    border-radius: 10px;
+    transform: translateX(831px) translateY(-223px);
+}
+
+/* Subtitulo para tecnicas de "Informacion Expandida" */
+
+.pandahab_pod h2{
+    transform: translateY(-115px);
+}
+
+/* Lineas laterales de Tecnicas de MDEM de "Informacion Expandida" */
+
+.pandalineas{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(-250px);
+}
+
+/* Lineas interiores de Tecnicas de MDEM de "Informacion Expandida" */
+
+.pandasublineas{
+    transform: translateX(-55px) translateY(-370px);
+}
+
+/* Lineas laterales de Nucleos de "Informacion Expandida" */
+
+.pandalineas2{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(68px);
+}
+
+/* Lineas interiores de Nucleos de "Informacion Expandida" */
+
+.pandasublineas2{
+    transform: translateX(-55px) translateY(-52px);
+}
+
+/* Lineas laterales por separado de Tecnicas de MDEM de "Informacion Expandida" */
+
+.pandablue-line-subtopA{
+    height: 50px;
+    background-color: #6205b9;
+    position: absolute;
+    top: 180px;
+    left: 88px;
+    width: 85%; 
+    z-index: 1000;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: white; 
+}
+.pandablue-line-subtopB{
+    height: 270px;
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 85px;
+    z-index: 1000;
+}
+.pandablue-line-subtopC{
+    height: 20px;
+    background-color: #6205b9;
+    top: 430px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.pandablue-line-subtopD{
+    height: 270px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 1097px;
+    z-index: 1000;
+}
+
+/* Lineas interiores por separado de Tecnicas de MDEM de "Informacion Expandida" */
+
+.pandablue-line-subtopB-1{
+    height: 220px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 350px;
+    left: 769px;
+    z-index: 1000;
+}
+
+/* Lineas laterales por separado de Nucleos de "Informacion Expandida" */
+
+.pandablue-line-subtopB2{
+    height: 930px;
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 85px;
+    z-index: 1000;
+}
+.pandablue-line-subtopC2{
+    height: 20px;
+    background-color: #6205b9;
+    top: 1090px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.pandablue-line-subtopD2{
+    height: 930px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 1097px;
+    z-index: 1000;
+}
+
+/* Lineas interiores por separado de Nucleos de "Informacion Expandida" */
+
+.pandablue-line-subtopA2-1{
+    height: 20px;
+    background-color: #6205b9;
+    top: 550px;
+    left: 141px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.pandablue-line-subtopA2-2{
+    height: 20px;
+    background-color: #6205b9;
+    top: 770px;
+    left: 141px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.pandablue-line-subtopA2-3{
+    height: 20px;
+    background-color: #6205b9;
+    top: 990px;
+    left: 141px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.pandablue-line-subtopB2-1{
+    height: 880px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 350px;
+    left: 769px;
+    z-index: 1000;
+}
+
+/* Subtitulos de cada apartado de tecnica de "Informacion Expandida" */
+
+.pandalineassubtitulo{
+    font-size: 25px;
+    font-weight: 500;
+}
+.pandalineassubtitulo2{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* Informacion Tecnicas de MDEM de "Informacion Expandida" */
+
+.pandainfo-todo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative;
+    transform: translateX(-160px);
+}
+
+/* Contenido Izquierda (Texto) */
+
+.pandainfo-left{
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+
+/* Contenido Derecha (Imagenes) */
+
+.pandainfo-right{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateX(-1px);
+}
+
+/* Informacion Nucleos de "Informacion Expandida" */
+
+.pandainfo-todo2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative;
+    transform: translateX(-10px) translateY(-234px);
+}
+      
+/* Contenido Izquierda (Texto) */
+
+.pandainfo-left2{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateY(379px);
+}
+
+/* Contenido Derecha (Imagenes) */
+
+.pandainfo-right2{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateX(9px)  translateY(379px);
+}
+
+/* Imagenes de tecnicas de "Informacion Expandida" */
+
+.pandatecnicas1{      
+    width: 300px;
+    transform: translateX(183px) translateY(81px);
+}
+.pandatecnicas2{     
+    width: 300px;
+    transform: translateX(-117px) translateY(301px);
+}
+.pandatecnicas3{      
+    width: 300px;
+    transform: translateX(183px) translateY(348.5px);
+}
+.pandatecnicas4{     
+    width: 300px; 
+    transform: translateX(-117px) translateY(568px);
+}
+
+/* Informaciones de tecnicas de "Informacion Expandida" */
+
+.pandacantidadenergia{
+    transform: translateX(118px) translateY(80px);
+}
+.pandacantidadenergia p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+.pandanucleos{
+    transform: translateX(127px) translateY(80px);
+}
+.pandanucleos p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.pandamodogorila{
+    transform: translateX(127px) translateY(176px);
+}
+.pandamodogorila p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.pandaritmotambor{
+    transform: translateX(127px) translateY(312px);
+}
+.pandaritmotambor p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.pandatriceratops{
+    transform: translateX(127px) translateY(428px);
+}
+.pandatriceratops p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}

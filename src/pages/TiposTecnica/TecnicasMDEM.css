@@ -1,0 +1,202 @@
+.tecnicastMDEMtodo{
+    height: 1508px;
+    padding-top: 150px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: left;
+}
+.tecnicasMDEMinfo p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.personajestecnicas1{
+    width: 300px;
+    transform: translateX(175px) translateY(91px);
+}
+.personajestecnicas2{
+    width: 300px;
+    transform: translateX(-125px) translateY(311px);
+}
+.personajestecnicas3{
+    width: 300px;
+    transform: translateX(175px) translateY(359px);
+}
+.personajestecnicas4{
+    width: 300px; 
+    transform: translateX(-125px) translateY(579px);
+}
+.personajestecnicas5{
+    width: 300px;
+    height: 169px; 
+    transform: translateX(175px) translateY(625px);
+}
+.tecnicasMDEMlineas {
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+  }
+.blue-line-subtopA{
+      height: 20px;
+      background-color: #6205b9;
+      position: absolute;
+      top: 180px;
+      left: 88px;
+      width: 85%; 
+      z-index: 1000;
+  }
+.blue-line-subtopB{
+      height: 1120px;
+      width: 20px;
+      background-color: #6205b9;
+      position: absolute; 
+      top: 180px;
+      left: 85px;
+      z-index: 1000;
+}
+.blue-line-subtopC{
+    height: 20px;
+    background-color: #6205b9;
+    top: 1280px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.blue-line-subtopD{
+      height: 1120px;  
+      width: 20px;
+      background-color: #6205b9;
+      position: absolute; 
+      top: 180px;
+      left: 1097px;
+      z-index: 1000;
+  }
+.blue-line-subtopA-1{
+      height: 20px;
+      background-color: #6205b9;
+      top: 550px;
+      left: 160px;
+      width: 76%;
+      position: absolute;
+      z-index: 1000;
+}
+.blue-line-subtopA-2{
+      height: 20px;
+      background-color: #6205b9;
+      top: 771px;
+      left: 160px;
+      width: 76%;
+      position: absolute;
+      z-index: 1000;
+}
+.blue-line-subtopA-3{
+    height: 20px;
+    background-color: #6205b9;
+    top: 992px;
+    left: 160px;
+    width: 76%;
+    position: absolute;
+    z-index: 1000;
+}
+.blue-line-subtopA-4{
+    height: 20px;
+    background-color: #6205b9;
+    top: 1210px;
+    left: 155px;
+    width: 76%;
+    position: absolute;
+    z-index: 1000;
+}
+.blue-line-subtopB-1{
+      height: 1120px;  
+      width: 20px;
+      background-color: #6205b9;
+      position: absolute; 
+      top: 330px;
+      left: 784px;
+      z-index: 1000;
+  }
+.tecnicasMDEM-todo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative
+    
+}
+.tecnicasMDEM-left{
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+.tecnicasMDEM-right{
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+.aumentarpotencia{
+    transform: translateX(118px) translateY(90px);
+}
+.aumentarpotencia p{
+    transform: translateX(0px) translateY(5px);
+    width: 590px;
+}
+.aumentarpotencia h4{
+    transform: translateX(0px) translateY(10px);
+}
+.reforzarcuerpo{
+    transform: translateX(118px) translateY(206px);
+}
+.reforzarcuerpo p{
+    transform: translateX(0px) translateY(5px);
+    width: 590px;
+}
+.reforzarcuerpo h4{
+    transform: translateX(0px) translateY(10px);
+}
+.puñodivergente{
+    transform: translateX(118px) translateY(323px);
+}
+.puñodivergente p{
+    transform: translateX(0px) translateY(5px);
+    width: 590px;
+}
+.puñodivergente h4{
+    transform: translateX(0px) translateY(10px);
+}
+.destellonegro{
+    transform: translateX(118px) translateY(391px);
+}
+.destellonegro p{
+    transform: translateX(0px) translateY(2px);
+    flex-basis: auto;
+    width: 590px;
+}
+.destellonegro h4{
+    transform: translateX(0px) translateY(2px);
+}
+.usuarios1{
+    transform: translateX(118px) translateY(104px);
+}
+.usuarios2{
+    transform: translateX(118px) translateY(220px);
+}
+.usuarios3{
+    transform: translateX(118px) translateY(337px);
+}
+.usuarios4{
+    transform: translateX(118px) translateY(393px);
+    width: 590px;
+}
+.usuarios5{
+    transform: translateX(118px) translateY(444px);
+    width: 590px;
+}
+.tecnicainversa{
+    transform: translateX(118px) translateY(430px);
+}
+.tecnicainversa p{
+    transform: translateX(0px) translateY(2px);
+    flex-basis: auto;
+    width: 590px;
+}
+.tecnicainversa h4{
+    transform: translateX(0px) translateY(8px);
+}

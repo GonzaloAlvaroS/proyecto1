@@ -1,0 +1,641 @@
+
+/* Contenido de toda la pagina */
+
+.infonobaratodo{
+    height: 2916px;
+    margin: 0 auto;  
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Todas las Lineas de "Informacion General" */
+
+.infonobaralineastodo{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(-25px);
+}
+
+/* Lineas por separado de "Informacion General" */
+
+.nobarablue-lineA{
+    height: 65px;
+    background-color: #6205b9;
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    width: 100%; 
+    z-index: 1000;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: white; 
+}
+.nobarablue-lineC{
+  height: 65px;
+  background-color: #6205b9;
+  top: 544px;
+  left: 0px;
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+}
+.nobarablue-linemini1{
+    height: 15px;
+    background-color: #6205b9;
+    top: 490px;
+    left: 70px;
+    width: 29.5%;
+    position: absolute;
+    z-index: 1000;
+}
+.nobarablue-linemini2{
+    height: 15px;
+    background-color: #6205b9;
+    top: 264px;
+    left: 70px;
+    width: 29.5%;
+    position: absolute;
+    z-index: 1000;
+}
+.nobarablue-linemini3{
+    height: 241px;
+    background-color: #6205b9;
+    top: 264px;
+    left: 55px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.nobarablue-linemini4{
+    height: 241px;
+    background-color: #6205b9;
+    top: 264px;
+    left: 466px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.nobarablue-linemini5{
+    height: 39px;
+    background-color: #6205b9;
+    top: 505px;
+    left: 261px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.nobarablue-linemini6{
+    height: 39px;
+    background-color: #6205b9;
+    top: 225px;
+    left: 261px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.nobarablue-linemini7{
+    height: 319px;
+    background-color: #6205b9;
+    top: 225px;
+    left: 1273px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.nobarablue-linemini8{
+    height: 319px;
+    background-color: #6205b9;
+    top: 225px;
+    left: 1038px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+
+/* Titulo de "Informacion General" */
+
+.nobaralineastitulo{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+/* Contenido de "Informacion General" */
+
+/* Imagenes de "Informacion General" */
+
+.infonobara{
+    width: 396px;
+    height: 211px;
+    transform: translateX(70px) translateY(254px);
+}
+.nobaraactual{
+    width: 172px;
+    height: 256px;
+    transform: translateX(1077px) translateY(-251px);   
+}
+.nobaraprincipio{
+    width: 172px;
+    height: 256px;
+    transform: translateX(1077px) translateY(-251px);
+}
+
+/* Datos de "Informacion General" */
+
+.nobaranombre{
+    transform: translateX(523px) translateY(44px);
+    font-weight: 400;
+    font-size: large;
+}
+.nobaraedad{
+    transform: translateX(523px) translateY(77px);
+    font-weight: 400;
+    font-size: large;
+}
+.nobaragenero{
+    transform: translateX(718px) translateY(54px);
+    font-weight: 400;
+    font-size: large;
+}
+.nobaraespecie{
+    transform: translateX(523px) translateY(96px);
+    font-weight: 400;
+    font-size: large;
+}
+.nobaraocupacion{
+    transform: translateX(718px) translateY(73px);
+    font-weight: 400;
+    font-size: large;
+}
+.nobaradebut{
+    transform: translateX(523px) translateY(106px);
+    font-weight: 400;
+    font-size: large;
+}
+.nobaraestado1{
+    transform: translateX(810px) translateY(83px);
+    font-weight: 400;
+    font-size: large;
+}
+.nobaraestado2{
+    transform: translateX(880px) translateY(60px);
+    font-weight: 400;
+    font-size: large;
+}
+.nobaraestado3{
+    transform: translateX(880px) translateY(60px);
+    font-weight: 400;
+    font-size: large;
+}
+
+/* Datos comparativos del personaje de "Informacion General" */
+
+.nobaraestado{
+    transform: translateX(1073px) translateY(84px);
+    font-weight: 400;
+    font-size: large;
+}
+.nobaraestadover{
+    transform: translateX(1141px) translateY(61px);
+    font-weight: 400;
+    font-size: large;
+    width: 0%;
+    color: rgb(42, 114, 209); 
+    text-decoration: underline;
+    cursor: pointer;
+}
+.nobaraestadopricipio{
+    transform: translateX(1180px) translateY(40px);
+    font-weight: 500;
+}
+.nobaraestadoactual{
+    transform: translateX(1186px) translateY(40px);
+    font-weight: 500;
+}
+.hidden {
+    display: none;
+}
+
+/* Contenido total de "Informacion Expandida" */
+
+.nobarainformacionexpandida{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+/* Descripcion de "Informacion Expandida" */
+
+.nobaradescripcion{
+    margin-top: -93px;
+    text-align: justify;   
+}
+.nobaradescripcion p{
+    font-size: 19px;
+    transform: translateY(5px);
+}
+
+/* Apariencia y Personalidad de "Informacion Expandida" */
+
+.nobaraap_per{
+    transform: translateY(32px);
+    text-align: justify;   
+}
+.nobaraap_per p{
+    font-size: 19px;
+}
+.nobaraapariencia{
+    transform: translateY(5px);
+}
+.nobarapersonalidad{
+    transform: translateY(25px);
+}
+
+/* Habilidades y Poderes de "Informacion Expandida" */
+
+.nobarahab_pod{
+    transform: translateY(85px);
+    text-align: justify;   
+}
+.nobarahab_pod p{
+    font-size: 19px;
+}
+.nobarafuerza{
+    transform: translateY(5px);
+}
+.nobaravelocidadresistencia{
+    width: 810px;
+    transform: translateY(25px);
+}
+.nobaraskill{
+    transform: translateY(45px);
+    width: 810px;
+}
+.nobaraaprendiz{
+    transform: translateY(65px);
+}
+
+/* Imagen de Habilidades y Poderes de "Informacion Expandida" */
+
+.nobarahab_pod img{
+    width: 370px;
+    border-radius: 10px;
+    transform: translateX(831px) translateY(-201px);
+}
+
+/* Subtitulo para tecnicas de "Informacion Expandida" */
+
+.nobarahab_pod h2{
+    transform: translateY(-115px);
+}
+
+/* Lineas laterales de Tecnicas de MDEM de "Informacion Expandida" */
+
+.nobaralineas{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(-250px);
+}
+
+/* Lineas interiores de Tecnicas de MDEM de "Informacion Expandida" */
+
+.nobarasublineas{
+    transform: translateX(-55px) translateY(-370px);
+}
+
+/* Lineas laterales de Tecnicas Innatas de "Informacion Expandida" */
+
+.nobaralineas2{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(288px);
+}
+
+/* Lineas interiores de Tecnicas Innatas de "Informacion Expandida" */
+
+.nobarasublineas2{
+    transform: translateX(-55px) translateY(168px);
+}
+
+/* Lineas laterales de Tecnicas Innatas (Extensiones) de "Informacion Expandida" */
+
+.nobaralineas3{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(606px);
+}
+
+/* Lineas interiores de Tecnicas Innatas (Extensiones) de "Informacion Expandida" */
+
+.nobarasublineas3{
+    transform: translateX(-55px) translateY(486px);
+}
+
+/* Lineas laterales por separado de Tecnicas de MDEM de "Informacion Expandida" */
+
+.nobarablue-line-subtopA{
+    height: 50px;
+    background-color: #6205b9;
+    position: absolute;
+    top: 180px;
+    left: 88px;
+    width: 85%; 
+    z-index: 1000;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: white; 
+}
+.nobarablue-line-subtopB{
+    height: 490px;
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 85px;
+    z-index: 1000;
+}
+.nobarablue-line-subtopC{
+    height: 20px;
+    background-color: #6205b9;
+    top: 650px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.nobarablue-line-subtopD{
+    height: 490px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 1097px;
+    z-index: 1000;
+}
+
+/* Lineas interiores por separado de Tecnicas de MDEM de "Informacion Expandida" */
+
+.nobarablue-line-subtopA-1{
+    height: 20px;
+    background-color: #6205b9;
+    top: 550px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.nobarablue-line-subtopB-1{
+    height: 440px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 350px;
+    left: 769px;
+    z-index: 1000;
+}
+
+/* Lineas laterales por separado de Tecnicas Innatas de "Informacion Expandida" */
+
+.nobarablue-line-subtopB2{
+    height: 270px;
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 85px;
+    z-index: 1000;
+}
+.nobarablue-line-subtopC2{
+    height: 20px;
+    background-color: #6205b9;
+    top: 430px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.nobarablue-line-subtopD2{
+    height: 270px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 1097px;
+    z-index: 1000;
+}
+
+/* Lineas interiores por separado de Tecnicas Innatas de "Informacion Expandida" */
+
+.nobarablue-line-subtopB2-1{
+    height: 220px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 350px;
+    left: 769px;
+    z-index: 1000;
+}
+
+/* Lineas laterales por separado de Tecnicas Innatas (Extensiones) de "Informacion Expandida" */
+
+.nobarablue-line-subtopB3{
+    height: 490px;
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 85px;
+    z-index: 1000;
+}
+.nobarablue-line-subtopC3{
+    height: 20px;
+    background-color: #6205b9;
+    top: 650px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.nobarablue-line-subtopD3{
+    height: 490px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 1097px;
+    z-index: 1000;
+}
+
+/* Lineas interiores por separado de Tecnicas Innatas (Extensiones) de "Informacion Expandida" */
+
+.nobarablue-line-subtopB3-1{
+    height: 440px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 350px;
+    left: 769px;
+    z-index: 1000;
+}
+
+/* Subtitulos de cada apartado de tecnica de "Informacion Expandida" */
+
+.nobaralineassubtitulo{
+    font-size: 25px;
+    font-weight: 500;
+}
+.nobaralineassubtitulo2{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* Informacion Tecnicas de MDEM de "Informacion Expandida" */
+
+.nobarainfo-todo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative;
+    transform: translateX(-10px);
+}
+
+/* Contenido Izquierda (Texto) */
+
+.nobarainfo-left{
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+
+/* Contenido Derecha (Imagenes) */
+
+.nobarainfo-right{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateX(-1px);
+}
+
+/* Informacion Tecnicas Innatas de "Informacion Expandida" */
+
+.nobarainfo-todo2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative;
+    transform: translateX(-160px) translateY(-89px);
+}
+      
+/* Contenido Izquierda (Texto) */
+
+.nobarainfo-left2{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateY(379px);
+}
+
+/* Contenido Derecha (Imagenes) */
+
+.nobarainfo-right2{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateX(-0.5px)  translateY(379px);
+}
+
+/* Informacion Tecnicas Innatas (Extensiones) de "Informacion Expandida" */
+
+.nobarainfo-todo3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative;
+    transform: translateX(-10px) translateY(135px);
+}
+      
+/* Contenido Izquierda (Texto) */
+
+.nobarainfo-left3{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateY(300px);
+}
+      
+/* Contenido Derecha (Imagenes) */
+
+.nobarainfo-right3{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateX(-0.5px) translateY(300px);
+}
+
+/* Imagenes de tecnicas de "Informacion Expandida" */
+
+.nobaratecnicas1{      
+    width: 300px;
+    transform: translateX(183px) translateY(81px);
+}
+.nobaratecnicas2{     
+    width: 300px;
+    transform: translateX(-117px) translateY(301px);
+}
+.nobaratecnicas3{      
+    width: 300px;
+    transform: translateX(183px) translateY(349px);
+}
+.nobaratecnicas4{     
+    width: 300px; 
+    transform: translateX(-117px) translateY(570px);
+}
+
+/* Informaciones de tecnicas de "Informacion Expandida" */
+
+.nobaracantidadenergia{
+    transform: translateX(118px) translateY(80px);
+}
+.nobaracantidadenergia p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.nobaradestellonegro{
+    transform: translateX(118px) translateY(196px);
+}
+.nobaradestellonegro p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.nobaramuñecovudu{
+    transform: translateX(118px) translateY(80px);
+}
+.nobaramuñecovudu p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.nobararesonancia{
+    transform: translateX(118px) translateY(80px);
+}
+.nobararesonancia p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.nobarahorquilla{
+    transform: translateX(118px) translateY(216px);
+}
+.nobarahorquilla p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}

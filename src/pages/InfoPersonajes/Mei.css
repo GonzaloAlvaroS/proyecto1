@@ -1,0 +1,612 @@
+
+/* Contenido de toda la pagina */
+
+.infomeitodo{
+    height: 2478px;
+    margin: 0 auto;  
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Todas las Lineas de "Informacion General" */
+
+.infomeilineastodo{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(-25px);
+}
+
+/* Lineas por separado de "Informacion General" */
+
+.meiblue-lineA{
+    height: 65px;
+    background-color: #6205b9;
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    width: 100%; 
+    z-index: 1000;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: white; 
+}
+.meiblue-lineC{
+  height: 65px;
+  background-color: #6205b9;
+  top: 544px;
+  left: 0px;
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+}
+.meiblue-linemini1{
+    height: 15px;
+    background-color: #6205b9;
+    top: 490px;
+    left: 70px;
+    width: 29.5%;
+    position: absolute;
+    z-index: 1000;
+}
+.meiblue-linemini2{
+    height: 15px;
+    background-color: #6205b9;
+    top: 264px;
+    left: 70px;
+    width: 29.5%;
+    position: absolute;
+    z-index: 1000;
+}
+.meiblue-linemini3{
+    height: 241px;
+    background-color: #6205b9;
+    top: 264px;
+    left: 55px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.meiblue-linemini4{
+    height: 241px;
+    background-color: #6205b9;
+    top: 264px;
+    left: 466px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.meiblue-linemini5{
+    height: 39px;
+    background-color: #6205b9;
+    top: 505px;
+    left: 261px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.meiblue-linemini6{
+    height: 39px;
+    background-color: #6205b9;
+    top: 225px;
+    left: 261px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.meiblue-linemini7{
+    height: 319px;
+    background-color: #6205b9;
+    top: 225px;
+    left: 1273px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.meiblue-linemini8{
+    height: 319px;
+    background-color: #6205b9;
+    top: 225px;
+    left: 1038px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+
+/* Titulo de "Informacion General" */
+
+.meilineastitulo{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+/* Contenido de "Informacion General" */
+
+/* Imagenes de "Informacion General" */
+
+.infomei{
+    width: 396px;
+    height: 211px;
+    transform: translateX(70px) translateY(254px);
+}
+.meiactual{
+    width: 172px;
+    height: 256px;
+    transform: translateX(1077px) translateY(-251px);   
+}
+.meiprincipio{
+    width: 172px;
+    height: 256px;
+    transform: translateX(1077px) translateY(-251px);
+}
+
+/* Datos de "Informacion General" */
+
+.meinombre{
+    transform: translateX(523px) translateY(44px);
+    font-weight: 400;
+    font-size: large;
+}
+.meiedad{
+    transform: translateX(523px) translateY(77px);
+    font-weight: 400;
+    font-size: large;
+}
+.meigenero{
+    transform: translateX(718px) translateY(54px);
+    font-weight: 400;
+    font-size: large;
+}
+.meiespecie{
+    transform: translateX(523px) translateY(96px);
+    font-weight: 400;
+    font-size: large;
+}
+.meiocupacion{
+    transform: translateX(718px) translateY(73px);
+    font-weight: 400;
+    font-size: large;
+}
+.meidebut{
+    transform: translateX(523px) translateY(106px);
+    font-weight: 400;
+    font-size: large;
+}
+.meiestado1{
+    transform: translateX(810px) translateY(83px);
+    font-weight: 400;
+    font-size: large;
+}
+.meiestado2{
+    transform: translateX(880px) translateY(60px);
+    font-weight: 400;
+    font-size: large;
+}
+.meiestado3{
+    transform: translateX(880px) translateY(60px);
+    font-weight: 400;
+    font-size: large;
+}
+
+/* Datos comparativos del personaje de "Informacion General" */
+
+.meiestado{
+    transform: translateX(1073px) translateY(84px);
+    font-weight: 400;
+    font-size: large;
+}
+.meiestadover{
+    transform: translateX(1141px) translateY(61px);
+    font-weight: 400;
+    font-size: large;
+    width: 0%;
+    color: rgb(42, 114, 209); 
+    text-decoration: underline;
+    cursor: pointer;
+}
+.meiestadopricipio{
+    transform: translateX(1180px) translateY(40px);
+    font-weight: 500;
+}
+.meiestadoactual{
+    transform: translateX(1186px) translateY(40px);
+    font-weight: 500;
+}
+.hidden {
+    display: none;
+}
+
+/* Contenido total de "Informacion Expandida" */
+
+.meiinformacionexpandida{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+/* Descripcion de "Informacion Expandida" */
+
+.meidescripcion{
+    margin-top: -93px;
+    text-align: justify;   
+}
+.meidescripcion p{
+    font-size: 19px;
+    transform: translateY(5px);
+}
+
+/* Apariencia y Personalidad de "Informacion Expandida" */
+
+.meiap_per{
+    transform: translateY(32px);
+    text-align: justify;   
+}
+.meiap_per p{
+    font-size: 19px;
+}
+.meiapariencia{
+    transform: translateY(5px);
+}
+.meipersonalidad{
+    transform: translateY(25px);
+}
+
+/* Habilidades y Poderes de "Informacion Expandida" */
+
+.meihab_pod{
+    transform: translateY(85px);
+    text-align: justify;   
+}
+.meihab_pod p{
+    font-size: 19px;
+}
+.meifuerza{
+    transform: translateY(5px);
+}
+.meivelocidadresistencia{
+    width: 810px;
+    transform: translateY(25px);
+}
+.meiskill{
+    transform: translateY(45px);
+    width: 810px;
+}
+.meiaprendiz{
+    transform: translateY(65px);
+}
+
+/* Imagen de Habilidades y Poderes de "Informacion Expandida" */
+
+.meihab_pod img{
+    width: 370px;
+    border-radius: 10px;
+    transform: translateX(831px) translateY(-223px);
+}
+
+/* Subtitulo para tecnicas de "Informacion Expandida" */
+
+.meihab_pod h2{
+    transform: translateY(-115px);
+}
+
+/* Lineas laterales de Tecnicas de MDEM de "Informacion Expandida" */
+
+.meilineas{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(-250px);
+}
+
+/* Lineas interiores de Tecnicas de MDEM de "Informacion Expandida" */
+
+.meisublineas{
+    transform: translateX(-55px) translateY(-370px);
+}
+
+/* Lineas laterales de Tecnicas Innatas de "Informacion Expandida" */
+
+.meilineas2{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(69px);
+}
+
+/* Lineas interiores de Tecnicas Innatas de "Informacion Expandida" */
+
+.meisublineas2{
+    transform: translateX(-55px) translateY(-51px);
+}
+
+/* Lineas laterales de Tecnicas Innatas (Extensiones) de "Informacion Expandida" */
+
+.meilineas3{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(387px);
+}
+
+/* Lineas interiores de Tecnicas Innatas (Extensiones) de "Informacion Expandida" */
+
+.meisublineas3{
+    transform: translateX(-55px) translateY(267px);
+}
+
+/* Lineas laterales por separado de Tecnicas de MDEM de "Informacion Expandida" */
+
+.meiblue-line-subtopA{
+    height: 50px;
+    background-color: #6205b9;
+    position: absolute;
+    top: 180px;
+    left: 88px;
+    width: 85%; 
+    z-index: 1000;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: white; 
+}
+.meiblue-line-subtopB{
+    height: 271px;
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 85px;
+    z-index: 1000;
+}
+.meiblue-line-subtopC{
+    height: 20px;
+    background-color: #6205b9;
+    top: 431px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.meiblue-line-subtopD{
+    height: 271px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 1097px;
+    z-index: 1000;
+}
+
+/* Lineas interiores por separado de Tecnicas de MDEM de "Informacion Expandida" */
+
+.meiblue-line-subtopB-1{
+    height: 220px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 350px;
+    left: 769px;
+    z-index: 1000;
+}
+
+/* Lineas laterales por separado de Tecnicas Innatas de "Informacion Expandida" */
+
+.meiblue-line-subtopB2{
+    height: 270px;
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 85px;
+    z-index: 1000;
+}
+.meiblue-line-subtopC2{
+    height: 20px;
+    background-color: #6205b9;
+    top: 430px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.meiblue-line-subtopD2{
+    height: 270px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 1097px;
+    z-index: 1000;
+}
+
+/* Lineas interiores por separado de Tecnicas Innatas de "Informacion Expandida" */
+
+.meiblue-line-subtopB2-1{
+    height: 220px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 350px;
+    left: 769px;
+    z-index: 1000;
+}
+
+/* Lineas laterales por separado de Tecnicas Innatas (Extensiones) de "Informacion Expandida" */
+
+.meiblue-line-subtopB3{
+    height: 270px;
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 85px;
+    z-index: 1000;
+}
+.meiblue-line-subtopC3{
+    height: 20px;
+    background-color: #6205b9;
+    top: 430px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.meiblue-line-subtopD3{
+    height: 270px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 1097px;
+    z-index: 1000;
+}
+
+/* Lineas interiores por separado de Tecnicas Innatas (Extensiones) de "Informacion Expandida" */
+
+.meiblue-line-subtopB3-1{
+    height: 220px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 350px;
+    left: 769px;
+    z-index: 1000;
+}
+
+/* Subtitulos de cada apartado de tecnica de "Informacion Expandida" */
+
+.meilineassubtitulo{
+    font-size: 25px;
+    font-weight: 500;
+}
+.meilineassubtitulo2{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* Informacion Tecnicas de MDEM de "Informacion Expandida" */
+
+.meiinfo-todo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative;
+    transform: translateX(-160px);
+}
+
+/* Contenido Izquierda (Texto) */
+
+.meiinfo-left{
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+
+/* Contenido Derecha (Imagenes) */
+
+.meiinfo-right{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateX(-1px);
+}
+
+/* Informacion Tecnicas Innatas de "Informacion Expandida" */
+
+.meiinfo-todo2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative;
+    transform: translateX(-160px) translateY(-233px);
+}
+      
+/* Contenido Izquierda (Texto) */
+
+.meiinfo-left2{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateY(379px);
+}
+
+/* Contenido Derecha (Imagenes) */
+
+.meiinfo-right2{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateX(-0.5px)  translateY(379px);
+}
+
+/* Informacion Tecnicas Innatas (Extensiones) de "Informacion Expandida" */
+
+.meiinfo-todo3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative;
+    transform: translateX(-160px) translateY(-9px);
+}
+      
+/* Contenido Izquierda (Texto) */
+
+.meiinfo-left3{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateY(300px);
+}
+      
+/* Contenido Derecha (Imagenes) */
+
+.meiinfo-right3{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateX(-0.5px) translateY(300px);
+}
+
+/* Imagenes de tecnicas de "Informacion Expandida" */
+
+.meitecnicas1{      
+    width: 300px;
+    transform: translateX(183px) translateY(81px);
+}
+.meitecnicas2{     
+    width: 300px;
+    transform: translateX(-117px) translateY(301px);
+}
+.meitecnicas3{      
+    width: 300px;
+    transform: translateX(183px) translateY(349px);
+}
+.meitecnicas4{     
+    width: 300px; 
+    transform: translateX(-117px) translateY(570px);
+}
+
+/* Informaciones de tecnicas de "Informacion Expandida" */
+
+.meicantidadenergia{
+    transform: translateX(118px) translateY(80px);
+}
+.meicantidadenergia p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.meimanipulacioncuervos{
+    transform: translateX(118px) translateY(80px);
+}
+.meimanipulacioncuervos p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.meichoquedecuervo{
+    transform: translateX(118px) translateY(80px);
+}
+.meichoquedecuervo p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}

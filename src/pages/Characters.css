@@ -1,0 +1,335 @@
+.characters{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    padding: 55px;
+    margin-top: 100px;
+    position: relative
+}
+.characters-right{
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    width: 500px;
+}
+.characters-left{
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    margin-right: 50px;
+    width: 500px;
+}
+.infocharacters1{
+    padding-top: 93px;
+}
+.infocharacters2{
+    padding-top: 165px;
+}
+.infocharacters3{
+    padding-top: 162px;
+}
+.infocharacters4{
+    padding-top: 165px;
+}
+.infocharacters5{
+    padding-top: 165px;
+}
+.infocharacters6{
+    padding-top: 165px;
+}
+.infocharacters7{
+    padding-top: 163px;
+}
+.infocharacters8{
+    padding-top: 165px;
+}
+.infocharacters9{
+    padding-top: 162px;
+}
+.infocharacters10{
+    padding-top: 165px;
+}
+.infocharacters11{
+    padding-top: 163px;
+}
+.infocharacters12{
+    padding-top: 165px;
+}
+.infocharacters13{
+    padding-top: 163px;
+}
+.infocharacters14{
+    padding-top: 165px;
+}
+.infocharacters15{
+    padding-top: 163px;
+}
+.infocharacters16{
+    padding-top: 165px;
+}
+.infocharacters17{
+    padding-top: 163px;
+}
+.infocharacters18{
+    padding-top: 165px;
+}
+.infocharacters19{
+    padding-top: 163px;
+}
+.infocharacters20{
+    padding-top: 165px;
+}
+.infocharacters21{
+    padding-top: 163px;
+}
+.infocharacters22{
+    padding-top: 165px;
+}
+.infocharacters23{
+    padding-top: 163px;
+}
+.infocharacters24{
+    padding-top: 165px;
+}
+.infocharacters25{
+    padding-top: 163px;
+}
+.infocharacters26{
+    padding-top: 165px;
+}
+.infocharacters27{
+    padding-top: 163px;
+}
+.infocharacters28{
+    padding-top: 165px;
+}
+.infocharacters29{
+    padding-top: 163px;
+}
+.infocharacters30{
+    padding-top: 165px;
+}
+.infocharacters31{
+    padding-top: 163px;
+}
+.infocharacters32{
+    padding-top: 165px;
+}
+.infocharacters33{
+    padding-top: 163px;
+}
+.infocharacters34{
+    padding-top: 165px;
+}
+.infocharacters35{
+    padding-top: 163px;
+}
+.infocharacters36{
+    padding-top: 165px;
+}
+.infocharacters37{
+    padding-top: 163px;
+}
+.infocharacters38{
+    padding-top: 165px;
+}
+.infocharacters39{
+    padding-top: 163px;
+}
+.personajes1{
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 500px;
+    height: 272px;
+}
+.blue-line-top{
+    height: 40px; /* Ajusta el grosor de la línea como prefieras */
+    background-color: #6205b9; /* El color de la línea */
+    width: 100%; /* Asegura que la línea ocupe todo el ancho */
+    position: absolute; /* O 'absolute' si solo necesitas que sea en relación al contenedor más cercano posicionado */
+    top: -15px;
+    left: 0;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    color: white; 
+  }
+.blue-line-top1{
+    height: 40px; /* Ajusta el grosor de la línea como prefieras */
+    background-color: #6205b9; /* El color de la línea */
+    width: 100%; /* Asegura que la línea ocupe todo el ancho */
+    position: absolute; /* O 'absolute' si solo necesitas que sea en relación al contenedor más cercano posicionado */
+    top: 2210px;
+    left: 0;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    color: white; 
+  }
+.blue-line-top2{
+    height: 40px; /* Ajusta el grosor de la línea como prefieras */
+    background-color: #6205b9; /* El color de la línea */
+    width: 100%; /* Asegura que la línea ocupe todo el ancho */
+    position: absolute; /* O 'absolute' si solo necesitas que sea en relación al contenedor más cercano posicionado */
+    top: 4472px;
+    left: 0;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    color: white; 
+  }
+.blue-line-top3{
+    height: 40px; /* Ajusta el grosor de la línea como prefieras */
+    background-color: #6205b9; /* El color de la línea */
+    width: 100%; /* Asegura que la línea ocupe todo el ancho */
+    position: absolute; /* O 'absolute' si solo necesitas que sea en relación al contenedor más cercano posicionado */
+    top: 8178px;
+    left: 0;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    color: white; 
+  }
+.blue-line-top4{
+    height: 40px; /* Ajusta el grosor de la línea como prefieras */
+    background-color: #6205b9; /* El color de la línea */
+    width: 100%; /* Asegura que la línea ocupe todo el ancho */
+    position: absolute; /* O 'absolute' si solo necesitas que sea en relación al contenedor más cercano posicionado */
+    top: 10045px;
+    left: 0;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    color: white; 
+  }
+.blue-line-top5{
+    height: 40px; /* Ajusta el grosor de la línea como prefieras */
+    background-color: #6205b9; /* El color de la línea */
+    width: 100%; /* Asegura que la línea ocupe todo el ancho */
+    position: absolute; /* O 'absolute' si solo necesitas que sea en relación al contenedor más cercano posicionado */
+    top: 10402px;
+    left: 0;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    color: white; 
+  }
+.blue-line-subtop{
+    height: 30px; /* Ajusta el grosor de la línea como prefieras */
+    background-color: #6205b9; /* El color de la línea */
+    width: 100%; /* Asegura que la línea ocupe todo el ancho */
+    position: absolute; /* O 'absolute' si solo necesitas que sea en relación al contenedor más cercano posicionado */
+    top: 40px;
+    left: 0;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    color: white; 
+  }
+.blue-line-subtop1{
+    height: 30px; /* Ajusta el grosor de la línea como prefieras */
+    background-color: #6205b9; /* El color de la línea */
+    width: 100%; /* Asegura que la línea ocupe todo el ancho */
+    position: absolute; /* O 'absolute' si solo necesitas que sea en relación al contenedor más cercano posicionado */
+    top: 975px;
+    left: 0;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    color: white; 
+  }
+.blue-line-subtop2{
+    height: 30px; /* Ajusta el grosor de la línea como prefieras */
+    background-color: #6205b9; /* El color de la línea */
+    width: 100%; /* Asegura que la línea ocupe todo el ancho */
+    position: absolute; /* O 'absolute' si solo necesitas que sea en relación al contenedor más cercano posicionado */
+    top: 2265px;
+    left: 0;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    color: white; 
+  }
+.blue-line-subtop3{
+    height: 30px; /* Ajusta el grosor de la línea como prefieras */
+    background-color: #6205b9; /* El color de la línea */
+    width: 100%; /* Asegura que la línea ocupe todo el ancho */
+    position: absolute; /* O 'absolute' si solo necesitas que sea en relación al contenedor más cercano posicionado */
+    top: 3200px;
+    left: 0;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    color: white; 
+  }
+.blue-line-subtop4{
+    height: 30px; /* Ajusta el grosor de la línea como prefieras */
+    background-color: #6205b9; /* El color de la línea */
+    width: 100%; /* Asegura que la línea ocupe todo el ancho */
+    position: absolute; /* O 'absolute' si solo necesitas que sea en relación al contenedor más cercano posicionado */
+    top: 4133px;
+    left: 0;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    color: white; 
+  }
+.blue-line-subtop5{
+    height: 30px; /* Ajusta el grosor de la línea como prefieras */
+    background-color: #6205b9; /* El color de la línea */
+    width: 100%; /* Asegura que la línea ocupe todo el ancho */
+    position: absolute; /* O 'absolute' si solo necesitas que sea en relación al contenedor más cercano posicionado */
+    top:7537px;
+    left: 0;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    color: white; 
+  }
+.subtitulocharacters{
+    font-size: 25px;
+}
+.subtitulocharacters1{
+    font-size: 20px;
+}
+.perso1{
+    margin-top: 27px;
+}
+.perso2{
+    margin-top: 85px;
+}
+.perso3{
+    margin-top: 27px;
+}
+.perso4{
+    margin-top: 27px;
+}
+.perso5{
+    margin-top: 55px;
+}
+.perso6{
+    margin-top: 27px;
+}
+.perso7{
+    margin-top: 55px;
+}
+.perso8{
+    margin-top: 55px;
+}
+.perso9{
+    margin-top: 55px;
+}
+
+  

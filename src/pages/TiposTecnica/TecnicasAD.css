@@ -1,0 +1,190 @@
+      /* Todo */  
+.tecnicastADtodo{        
+    height: 1265px;
+    padding-top: 150px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: left;
+}
+      /* Informacion principal del tipo de tecnica */ 
+.tecnicasADinfo p{      
+    font-size: 20px;
+    padding-top: 10px;
+}
+       /* Imagenes */ 
+.personajestecnicasAD1{      
+    width: 300px;
+    transform: translateX(175px) translateY(91px);
+}
+.personajestecnicasAD2{     
+    width: 300px;
+    transform: translateX(-125px) translateY(311px);
+}
+.personajestecnicasAD3{      
+    width: 300px;
+    transform: translateX(175px) translateY(359px);
+}
+.personajestecnicasAD4{     
+    width: 300px; 
+    transform: translateX(-125px) translateY(579px);
+}
+      /* Lineas laterales (A, B, C y D) */
+.tecnicasADlineas{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(-25px);
+}
+      /* Lineas interiores */
+.tecnicasADsublineas{
+    transform: translateX(-55px) translateY(-175px);
+}
+      /* Lineas laterales (A, B, C y D) por separado */
+.ADblue-line-subtopA{
+      height: 20px;
+      background-color: #6205b9;
+      position: absolute;
+      top: 180px;
+      left: 88px;
+      width: 85%; 
+      z-index: 1000;
+}
+.ADblue-line-subtopB{
+      height: 900px;
+      width: 20px;
+      background-color: #6205b9;
+      position: absolute; 
+      top: 180px;
+      left: 85px;
+      z-index: 1000;
+}
+.ADblue-line-subtopC{
+    height: 20px;
+    background-color: #6205b9;
+    top: 1060px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.ADblue-line-subtopD{
+      height: 900px;  
+      width: 20px;
+      background-color: #6205b9;
+      position: absolute; 
+      top: 180px;
+      left: 1097px;
+      z-index: 1000;
+}
+      /* Lineas interiores (horizontal) */
+.ADblue-line-subtopA-1{
+      height: 20px;
+      background-color: #6205b9;
+      top: 550px;
+      left: 160px;
+      width: 83%;
+      position: absolute;
+      z-index: 1000;
+}
+.ADblue-line-subtopA-2{
+      height: 20px;
+      background-color: #6205b9;
+      top: 771px;
+      left: 160px;
+      width: 83%;
+      position: absolute;
+      z-index: 1000;
+}
+.ADblue-line-subtopA-3{
+    height: 20px;
+    background-color: #6205b9;
+    top: 992px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+       /* Lineas interiores (vertical) */
+.ADblue-line-subtopB-1{
+      height: 900px;  
+      width: 20px;
+      background-color: #6205b9;
+      position: absolute; 
+      top: 330px;
+      left: 769px;
+      z-index: 1000;
+}
+      /* Contenido (Todo) */
+.tecnicasMDEM-todo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative
+    
+}
+      /* Contenido Izquierda (Texto) */
+.tecnicasMDEM-left{
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+      /* Contenido Derecha (Imagenes) */
+.tecnicasMDEM-right{
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+      /* Info de Tecnicas */
+.hollowbasket{
+    transform: translateX(118px) translateY(90px);
+}
+.hollowbasket p{
+    transform: translateX(0px) translateY(5px);
+    width: 590px;
+}
+.hollowbasket h4{
+    transform: translateX(0px) translateY(10px);
+}
+.dominiosimple{
+    transform: translateX(118px) translateY(206px);
+}
+.dominiosimple p{
+    transform: translateX(0px) translateY(5px);
+    width: 590px;
+}
+.dominiosimple h4{
+    transform: translateX(0px) translateY(10px);
+}
+.fallingblossom{
+    transform: translateX(118px) translateY(303px);
+}
+.fallingblossom p{
+    transform: translateX(0px) translateY(5px);
+    width: 590px;
+}
+.fallingblossom h4{
+    transform: translateX(0px) translateY(10px);
+}
+.amplificaciondominio{
+    transform: translateX(118px) translateY(380px);
+}
+.amplificaciondominio p{
+    transform: translateX(0px) translateY(2px);
+    flex-basis: auto;
+    width: 590px;
+}
+.amplificaciondominio h4{
+    transform: translateX(0px) translateY(7px);
+}
+      /* Info de Tecnicas (Usuarios) */
+.usuariosAD1{
+    transform: translateX(118px) translateY(104px);
+}
+.usuariosAD2{
+    transform: translateX(118px) translateY(221px);
+}
+.usuariosAD3{
+    transform: translateX(118px) translateY(318px);
+}
+.usuariosAD4{
+    transform: translateX(118px) translateY(392px);
+    width: 590px;
+}

@@ -1,0 +1,692 @@
+
+/* Contenido de toda la pagina */
+
+.infokusakabetodo{
+    height: 3383px;
+    margin: 0 auto;  
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Todas las Lineas de "Informacion General" */
+
+.infokusakabelineastodo{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(-25px);
+}
+
+/* Lineas por separado de "Informacion General" */
+
+.kusakabeblue-lineA{
+    height: 65px;
+    background-color: #6205b9;
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    width: 100%; 
+    z-index: 1000;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: white; 
+}
+.kusakabeblue-lineC{
+  height: 65px;
+  background-color: #6205b9;
+  top: 544px;
+  left: 0px;
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+}
+.kusakabeblue-linemini1{
+    height: 15px;
+    background-color: #6205b9;
+    top: 490px;
+    left: 70px;
+    width: 29.5%;
+    position: absolute;
+    z-index: 1000;
+}
+.kusakabeblue-linemini2{
+    height: 15px;
+    background-color: #6205b9;
+    top: 264px;
+    left: 70px;
+    width: 29.5%;
+    position: absolute;
+    z-index: 1000;
+}
+.kusakabeblue-linemini3{
+    height: 241px;
+    background-color: #6205b9;
+    top: 264px;
+    left: 55px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.kusakabeblue-linemini4{
+    height: 241px;
+    background-color: #6205b9;
+    top: 264px;
+    left: 466px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.kusakabeblue-linemini5{
+    height: 39px;
+    background-color: #6205b9;
+    top: 505px;
+    left: 261px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.kusakabeblue-linemini6{
+    height: 39px;
+    background-color: #6205b9;
+    top: 225px;
+    left: 261px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.kusakabeblue-linemini7{
+    height: 319px;
+    background-color: #6205b9;
+    top: 225px;
+    left: 1273px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.kusakabeblue-linemini8{
+    height: 319px;
+    background-color: #6205b9;
+    top: 225px;
+    left: 1038px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+
+/* Titulo de "Informacion General" */
+
+.kusakabelineastitulo{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+/* Contenido de "Informacion General" */
+
+/* Imagenes de "Informacion General" */
+
+.infokusakabe{
+    width: 396px;
+    height: 211px;
+    transform: translateX(70px) translateY(254px);
+}
+.kusakabeactual{
+    width: 172px;
+    height: 256px;
+    transform: translateX(1077px) translateY(-251px);   
+}
+.kusakabeprincipio{
+    width: 172px;
+    height: 256px;
+    transform: translateX(1077px) translateY(-251px);
+}
+
+/* Datos de "Informacion General" */
+
+.kusakabenombre{
+    transform: translateX(523px) translateY(44px);
+    font-weight: 400;
+    font-size: large;
+}
+.kusakabeedad{
+    transform: translateX(523px) translateY(77px);
+    font-weight: 400;
+    font-size: large;
+}
+.kusakabegenero{
+    transform: translateX(718px) translateY(54px);
+    font-weight: 400;
+    font-size: large;
+}
+.kusakabeespecie{
+    transform: translateX(523px) translateY(96px);
+    font-weight: 400;
+    font-size: large;
+}
+.kusakabeocupacion{
+    transform: translateX(718px) translateY(73px);
+    font-weight: 400;
+    font-size: large;
+}
+.kusakabedebut{
+    transform: translateX(523px) translateY(106px);
+    font-weight: 400;
+    font-size: large;
+}
+.kusakabeestado1{
+    transform: translateX(810px) translateY(83px);
+    font-weight: 400;
+    font-size: large;
+}
+.kusakabeestado2{
+    transform: translateX(880px) translateY(60px);
+    font-weight: 400;
+    font-size: large;
+}
+.kusakabeestado3{
+    transform: translateX(880px) translateY(60px);
+    font-weight: 400;
+    font-size: large;
+}
+
+/* Datos comparativos del personaje de "Informacion General" */
+
+.kusakabeestado{
+    transform: translateX(1073px) translateY(84px);
+    font-weight: 400;
+    font-size: large;
+}
+.kusakabeestadover{
+    transform: translateX(1141px) translateY(61px);
+    font-weight: 400;
+    font-size: large;
+    width: 0%;
+    color: rgb(42, 114, 209); 
+    text-decoration: underline;
+    cursor: pointer;
+}
+.kusakabeestadopricipio{
+    transform: translateX(1180px) translateY(40px);
+    font-weight: 500;
+}
+.kusakabeestadoactual{
+    transform: translateX(1186px) translateY(40px);
+    font-weight: 500;
+}
+.hidden {
+    display: none;
+}
+
+/* Contenido total de "Informacion Expandida" */
+
+.kusakabeinformacionexpandida{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+/* Descripcion de "Informacion Expandida" */
+
+.kusakabedescripcion{
+    margin-top: -93px;
+    text-align: justify;   
+}
+.kusakabedescripcion p{
+    font-size: 19px;
+    transform: translateY(5px);
+}
+
+/* Apariencia y Personalidad de "Informacion Expandida" */
+
+.kusakabeap_per{
+    transform: translateY(32px);
+    text-align: justify;   
+}
+.kusakabeap_per p{
+    font-size: 19px;
+}
+.kusakabeapariencia{
+    transform: translateY(5px);
+}
+.kusakabepersonalidad{
+    transform: translateY(25px);
+}
+
+/* Habilidades y Poderes de "Informacion Expandida" */
+
+.kusakabehab_pod{
+    transform: translateY(85px);
+    text-align: justify;   
+}
+.kusakabehab_pod p{
+    font-size: 19px;
+}
+.kusakabefuerza{
+    transform: translateY(5px);
+}
+.kusakabevelocidadresistencia{
+    width: 810px;
+    transform: translateY(25px);
+}
+.kusakabeskill{
+    transform: translateY(45px);
+    width: 810px;
+}
+.kusakabeaprendiz{
+    transform: translateY(65px);
+}
+
+/* Imagen de Habilidades y Poderes de "Informacion Expandida" */
+
+.kusakabehab_pod img{
+    width: 370px;
+    border-radius: 10px;
+    transform: translateX(831px) translateY(-223px);
+}
+
+/* Subtitulo para tecnicas de "Informacion Expandida" */
+
+.kusakabehab_pod h2{
+    transform: translateY(-115px);
+}
+
+/* Lineas laterales de Tecnicas de MDEM de "Informacion Expandida" */
+
+.kusakabelineas{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(-250px);
+}
+
+/* Lineas interiores de Tecnicas de MDEM de "Informacion Expandida" */
+
+.kusakabesublineas{
+    transform: translateX(-55px) translateY(-370px);
+}
+
+/* Lineas laterales de Tecnicas Innatas de "Informacion Expandida" */
+
+.kusakabelineas2{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(68px);
+}
+
+/* Lineas interiores de Tecnicas Innatas de "Informacion Expandida" */
+
+.kusakabesublineas2{
+    transform: translateX(-55px) translateY(-70px);
+}
+
+/* Lineas laterales de Tecnicas Innatas (Extensiones) de "Informacion Expandida" */
+
+.kusakabelineas3{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(386px);
+}
+
+/* Lineas interiores de Tecnicas Innatas (Extensiones) de "Informacion Expandida" */
+
+.kusakabesublineas3{
+    transform: translateX(-55px) translateY(486px);
+}
+
+/* Lineas laterales por separado de Tecnicas de MDEM de "Informacion Expandida" */
+
+.kusakabeblue-line-subtopA{
+    height: 50px;
+    background-color: #6205b9;
+    position: absolute;
+    top: 180px;
+    left: 88px;
+    width: 85%; 
+    z-index: 1000;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: white; 
+}
+.kusakabeblue-line-subtopB{
+    height: 270px;
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 85px;
+    z-index: 1000;
+}
+.kusakabeblue-line-subtopC{
+    height: 20px;
+    background-color: #6205b9;
+    top: 430px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.kusakabeblue-line-subtopD{
+    height: 270px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 1097px;
+    z-index: 1000;
+}
+
+/* Lineas interiores por separado de Tecnicas de MDEM de "Informacion Expandida" */
+
+.kusakabeblue-line-subtopB-1{
+    height: 220px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 350px;
+    left: 769px;
+    z-index: 1000;
+}
+
+/* Lineas laterales por separado de Tecnicas Innatas de "Informacion Expandida" */
+
+.kusakabeblue-line-subtopB2{
+    height: 270px;
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 85px;
+    z-index: 1000;
+}
+.kusakabeblue-line-subtopC2{
+    height: 20px;
+    background-color: #6205b9;
+    top: 430px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.kusakabeblue-line-subtopD2{
+    height: 270px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 1097px;
+    z-index: 1000;
+}
+
+/* Lineas interiores por separado de Tecnicas Innatas de "Informacion Expandida" */
+
+.kusakabeblue-line-subtopB2-1{
+    height: 220px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 350px;
+    left: 769px;
+    z-index: 1000;
+}
+
+/* Lineas laterales por separado de Tecnicas Innatas (Extensiones) de "Informacion Expandida" */
+
+.kusakabeblue-line-subtopB3{
+    height: 1153px;
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 85px;
+    z-index: 1000;
+}
+.kusakabeblue-line-subtopC3{
+    height: 20px;
+    background-color: #6205b9;
+    top: 1313px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.kusakabeblue-line-subtopD3{
+    height: 1153px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 1097px;
+    z-index: 1000;
+}
+
+/* Lineas interiores por separado de Tecnicas Innatas (Extensiones) de "Informacion Expandida" */
+
+.kusakabeblue-line-subtopA3-1{
+    height: 20px;
+    background-color: #6205b9;
+    top: 330px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.kusakabeblue-line-subtopA3-2{
+    height: 20px;
+    background-color: #6205b9;
+    top: 551px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.kusakabeblue-line-subtopA3-3{
+    height: 20px;
+    background-color: #6205b9;
+    top: 771px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.kusakabeblue-line-subtopA3-4{
+    height: 20px;
+    background-color: #6205b9;
+    top: 992px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.kusakabeblue-line-subtopB3-1{
+    height: 1100px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 130px;
+    left: 769px;
+    z-index: 1000;
+}
+
+/* Subtitulos de cada apartado de tecnica de "Informacion Expandida" */
+
+.kusakabelineassubtitulo{
+    font-size: 25px;
+    font-weight: 500;
+}
+.kusakabelineassubtitulo2{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* Informacion Tecnicas de MDEM de "Informacion Expandida" */
+
+.kusakabeinfo-todo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative;
+    transform: translateX(-160px)
+}
+
+/* Contenido Izquierda (Texto) */
+
+.kusakabeinfo-left{
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+
+/* Contenido Derecha (Imagenes) */
+
+.kusakabeinfo-right{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateX(-0.5px) translateY(145px)
+}
+
+/* Informacion Tecnicas Innatas de "Informacion Expandida" */
+
+.kusakabeinfo-todo2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative;
+    transform: translateX(-160px) translateY(-234px);
+}
+      
+/* Contenido Izquierda (Texto) */
+
+.kusakabeinfo-left2{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateY(379px);
+}
+
+/* Contenido Derecha (Imagenes) */
+
+.kusakabeinfo-right2{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateX(-0.5px)  translateY(524px);
+}
+
+/* Informacion Tecnicas Innatas (Extensiones) de "Informacion Expandida" */
+
+.kusakabeinfo-todo3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative;
+    transform: translateX(0px) translateY(135px);
+}
+      
+/* Contenido Izquierda (Texto) */
+
+.kusakabeinfo-left3{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateY(300px);
+}
+      
+/* Contenido Derecha (Imagenes) */
+
+.kusakabeinfo-right3{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateX(-0.5px) translateY(300px);
+}
+
+/* Imagenes de tecnicas de "Informacion Expandida" */
+
+.kusakabetecnicas1{      
+    width: 300px;
+    transform: translateX(183px) translateY(-64px);
+}
+.kusakabetecnicas2{     
+    width: 300px;
+    transform: translateX(-117px) translateY(157px);
+}
+.kusakabetecnicas3{      
+    width: 300px;
+    transform: translateX(183px) translateY(204.5px);
+}
+.kusakabetecnicas4{     
+    width: 300px; 
+    transform: translateX(-117px) translateY(425px);
+}
+.kusakabetecnicas5-1{     
+    width: 300px; 
+    transform: translateX(183px) translateY(473px);
+}
+
+/* Informaciones de tecnicas de "Informacion Expandida" */
+
+.kusakabecantidadenergia{
+    transform: translateX(118px) translateY(80px);
+}
+.kusakabecantidadenergia p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.kusakabemanipulacionsangre{
+    transform: translateX(118px) translateY(80px);
+}
+.kusakabemanipulacionsangre p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.kusakabeescalaroja{
+    transform: translateX(118px) translateY(-65px);
+}
+.kusakabeescalaroja p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.kusakabeataduracarmesi{
+    transform: translateX(118px) translateY(71px);
+}
+.kusakabeataduracarmesi p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.kusakabecortepurificador{
+    transform: translateX(118px) translateY(228px);
+}
+.kusakabecortepurificador p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.kusakabeconvergencia{
+    transform: translateX(118px) translateY(384px);
+}
+.kusakabeconvergencia p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.kusakabesangreperforante{
+    transform: translateX(118px) translateY(501px);
+}
+.kusakabesangreperforante p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}

@@ -1,0 +1,327 @@
+      /* Todo */  
+.tecnicastEXDtodo{        
+    height: 3265px;
+    padding-top: 150px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: left;
+}
+      /* Informacion principal del tipo de tecnica */ 
+.tecnicasEXDinfo p{      
+    font-size: 20px;
+    padding-top: 10px;
+}
+.dominioincompleto{
+    width: 400px;
+    transform: translateX(80px) translateY(35px);
+}
+.incompletodesgaste{
+    transform: translateY(10px);
+}
+.incompletodesgastep{
+    transform: translateY(12px);
+}
+.contramedidas{
+    transform: translateY(28px);
+}
+.dominioincompletosub1{
+    transform: translateX(510px) translateY(-92px);
+}
+.infochoquedominio{
+    transform: translateY(31px);
+}
+.choquedominio{
+    width: 400px;
+    transform: translateX(723px) translateY(55px);
+}
+.choquedominiosub2{
+    transform: translateX(199px) translateY(-70px);
+}
+.listasub{
+    transform: translateY(55px);
+}
+       /* Imagenes */ 
+.personajestecnicasEXD1{      
+    width: 300px;
+    transform: translateX(175px) translateY(91px);
+}
+.personajestecnicasEXD2{     
+    width: 300px;
+    transform: translateX(-125px) translateY(311px);
+}
+.personajestecnicasEXD3{      
+    width: 300px;
+    transform: translateX(175px) translateY(359px);
+}
+.personajestecnicasEXD4{     
+    width: 300px; 
+    transform: translateX(-125px) translateY(579px);
+}
+.personajestecnicasEXD5{
+    width: 300px; 
+    transform: translateX(175px) translateY(627px);
+}
+.personajestecnicasEXD6{
+    width: 300px; 
+    transform: translateX(-125px) translateY(848px);
+}
+.personajestecnicasEXD7{
+    width: 300px; 
+    transform: translateX(175px) translateY(894px);
+}
+.personajestecnicasEXD8{
+    width: 300px; 
+    transform: translateX(-125px) translateY(1115px);
+}
+      /* Lineas laterales (A, B, C y D) */
+.tecnicasEXDlineas{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(980px);
+}
+      /* Lineas interiores */
+.tecnicasEXDsublineas{
+    transform: translateX(-55px) translateY(830px);
+}
+      /* Lineas laterales (A, B, C y D) por separado */
+.EXDblue-line-subtopA{
+      height: 20px;
+      background-color: #6205b9;
+      position: absolute;
+      top: 180px;
+      left: 88px;
+      width: 85%; 
+      z-index: 1000;
+}
+.EXDblue-line-subtopB{
+      height: 1783px;
+      width: 20px;
+      background-color: #6205b9;
+      position: absolute; 
+      top: 180px;
+      left: 85px;
+      z-index: 1000;
+}
+.EXDblue-line-subtopC{
+    height: 20px;
+    background-color: #6205b9;
+    top: 1943px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.EXDblue-line-subtopD{
+      height: 1783px;  
+      width: 20px;
+      background-color: #6205b9;
+      position: absolute; 
+      top: 180px;
+      left: 1097px;
+      z-index: 1000;
+    }
+      /* Lineas interiores (horizontal) */
+.EXDblue-line-subtopA-1{
+      height: 20px;
+      background-color: #6205b9;
+      top: 550px;
+      left: 160px;
+      width: 83%;
+      position: absolute;
+      z-index: 1000;
+}
+.EXDblue-line-subtopA-2{
+      height: 20px;
+      background-color: #6205b9;
+      top: 771px;
+      left: 160px;
+      width: 83%;
+      position: absolute;
+      z-index: 1000;
+}
+.EXDblue-line-subtopA-3{
+    height: 20px;
+    background-color: #6205b9;
+    top: 992px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.EXDblue-line-subtopA-4{
+    height: 20px;
+    background-color: #6205b9;
+    top: 1212px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.EXDblue-line-subtopA-5{
+    height: 20px;
+    background-color: #6205b9;
+    top: 1432px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.EXDblue-line-subtopA-6{
+    height: 20px;
+    background-color: #6205b9;
+    top: 1652px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.EXDblue-line-subtopA-7{
+    height: 20px;
+    background-color: #6205b9;
+    top: 1872px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+       /* Lineas interiores (vertical) */
+.EXDblue-line-subtopB-1{
+      height: 1783px;  
+      width: 20px;
+      background-color: #6205b9;
+      position: absolute; 
+      top: 330px;
+      left: 769px;
+      z-index: 1000;
+}
+      /* Contenido (Todo) */
+.tecnicasMDEM-todo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative
+    
+}
+      /* Contenido Izquierda (Texto) */
+.tecnicasMDEM-left{
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+      /* Contenido Derecha (Imagenes) */
+.tecnicasEXD-right{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateY(37px);
+}
+      /* Info de Tecnicas */
+.megumidominio{
+    transform: translateX(118px) translateY(127px);
+}
+.megumidominio p{
+    transform: translateX(0px) translateY(5px);
+    width: 590px;
+}
+.megumidominio h4{
+    transform: translateX(0px) translateY(10px);
+}
+.yutadominio{
+    transform: translateX(118px) translateY(223px);
+}
+.yutadominio p{
+    transform: translateX(0px) translateY(5px);
+    width: 590px;
+}
+.yutadominio h4{
+    transform: translateX(0px) translateY(10px);
+}
+.gojodominio{
+    transform: translateX(118px) translateY(320px);
+}
+.gojodominio p{
+    transform: translateX(0px) translateY(5px);
+    width: 590px;
+}
+.gojodominio h4{
+    transform: translateX(0px) translateY(10px);
+}
+.kenjakudominio{
+    transform: translateX(118px) translateY(417px);
+}
+.kenjakudominio p{
+    transform: translateX(0px) translateY(2px);
+    flex-basis: auto;
+    width: 590px;
+}
+.kenjakudominio h4{
+    transform: translateX(0px) translateY(7px);
+}
+.sukunadominio{
+    transform: translateX(118px) translateY(533px);
+}
+.sukunadominio p{
+    transform: translateX(0px) translateY(2px);
+    flex-basis: auto;
+    width: 590px;
+}
+.sukunadominio h4{
+    transform: translateX(0px) translateY(7px);
+}
+.mahitodominio{
+    transform: translateX(118px) translateY(609px);
+}
+.mahitodominio p{
+    transform: translateX(0px) translateY(2px);
+    flex-basis: auto;
+    width: 590px;
+}
+.mahitodominio h4{
+    transform: translateX(0px) translateY(7px);
+}
+.jogodominio{
+    transform: translateX(118px) translateY(725px);
+}
+.jogodominio p{
+    transform: translateX(0px) translateY(2px);
+    flex-basis: auto;
+    width: 590px;
+}
+.jogodominio h4{
+    transform: translateX(0px) translateY(7px);
+}
+.dagondominio{
+    transform: translateX(118px) translateY(821px);
+}
+.dagondominio p{
+    transform: translateX(0px) translateY(2px);
+    flex-basis: auto;
+    width: 590px;
+}
+.dagondominio h4{
+    transform: translateX(0px) translateY(7px);
+}
+      /* Info de Tecnicas (Usuarios) */
+.usuariosEXD1{
+    transform: translateX(118px) translateY(142px);
+}
+.usuariosEXD2{
+    transform: translateX(118px) translateY(238px);
+}
+.usuariosEXD3{
+    transform: translateX(118px) translateY(335px);
+}
+.usuariosEXD4{
+    transform: translateX(118px) translateY(429px);
+}
+.usuariosEXD5{
+    transform: translateX(118px) translateY(545px);
+}
+.usuariosEXD6{
+    transform: translateX(118px) translateY(620px);
+}
+.usuariosEXD7{
+    transform: translateX(118px) translateY(737px);
+}
+.usuariosEXD8{
+    transform: translateX(118px) translateY(833px);
+}

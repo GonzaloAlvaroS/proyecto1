@@ -1,0 +1,714 @@
+
+/* Contenido de toda la pagina */
+
+.infoinumakitodo{
+    height: 4182px;
+    margin: 0 auto;  
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Todas las Lineas de "Informacion General" */
+
+.infoinumakilineastodo{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(-25px);
+}
+
+/* Lineas por separado de "Informacion General" */
+
+.inumakiblue-lineA{
+    height: 65px;
+    background-color: #6205b9;
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    width: 100%; 
+    z-index: 1000;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: white; 
+}
+.inumakiblue-lineC{
+  height: 65px;
+  background-color: #6205b9;
+  top: 544px;
+  left: 0px;
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+}
+.inumakiblue-linemini1{
+    height: 15px;
+    background-color: #6205b9;
+    top: 490px;
+    left: 70px;
+    width: 29.5%;
+    position: absolute;
+    z-index: 1000;
+}
+.inumakiblue-linemini2{
+    height: 15px;
+    background-color: #6205b9;
+    top: 264px;
+    left: 70px;
+    width: 29.5%;
+    position: absolute;
+    z-index: 1000;
+}
+.inumakiblue-linemini3{
+    height: 241px;
+    background-color: #6205b9;
+    top: 264px;
+    left: 55px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.inumakiblue-linemini4{
+    height: 241px;
+    background-color: #6205b9;
+    top: 264px;
+    left: 466px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.inumakiblue-linemini5{
+    height: 39px;
+    background-color: #6205b9;
+    top: 505px;
+    left: 261px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.inumakiblue-linemini6{
+    height: 39px;
+    background-color: #6205b9;
+    top: 225px;
+    left: 261px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.inumakiblue-linemini7{
+    height: 319px;
+    background-color: #6205b9;
+    top: 225px;
+    left: 1273px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+.inumakiblue-linemini8{
+    height: 319px;
+    background-color: #6205b9;
+    top: 225px;
+    left: 1038px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+
+/* Titulo de "Informacion General" */
+
+.inumakilineastitulo{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+/* Contenido de "Informacion General" */
+
+/* Imagenes de "Informacion General" */
+
+.infoinumaki{
+    width: 396px;
+    height: 211px;
+    transform: translateX(70px) translateY(254px);
+}
+.inumakiactual{
+    width: 172px;
+    height: 256px;
+    transform: translateX(1077px) translateY(-251px);   
+}
+.inumakiprincipio{
+    width: 172px;
+    height: 256px;
+    transform: translateX(1077px) translateY(-251px);
+}
+
+/* Datos de "Informacion General" */
+
+.inumakinombre{
+    transform: translateX(523px) translateY(44px);
+    font-weight: 400;
+    font-size: large;
+}
+.inumakiedad{
+    transform: translateX(523px) translateY(77px);
+    font-weight: 400;
+    font-size: large;
+}
+.inumakigenero{
+    transform: translateX(718px) translateY(54px);
+    font-weight: 400;
+    font-size: large;
+}
+.inumakiespecie{
+    transform: translateX(523px) translateY(96px);
+    font-weight: 400;
+    font-size: large;
+}
+.inumakiocupacion{
+    transform: translateX(718px) translateY(73px);
+    font-weight: 400;
+    font-size: large;
+}
+.inumakidebut{
+    transform: translateX(523px) translateY(106px);
+    font-weight: 400;
+    font-size: large;
+}
+.inumakiestado1{
+    transform: translateX(810px) translateY(83px);
+    font-weight: 400;
+    font-size: large;
+}
+.inumakiestado2{
+    transform: translateX(880px) translateY(60px);
+    font-weight: 400;
+    font-size: large;
+}
+.inumakiestado3{
+    transform: translateX(880px) translateY(60px);
+    font-weight: 400;
+    font-size: large;
+}
+
+/* Datos comparativos del personaje de "Informacion General" */
+
+.inumakiestado{
+    transform: translateX(1073px) translateY(84px);
+    font-weight: 400;
+    font-size: large;
+}
+.inumakiestadover{
+    transform: translateX(1141px) translateY(61px);
+    font-weight: 400;
+    font-size: large;
+    width: 0%;
+    color: rgb(42, 114, 209); 
+    text-decoration: underline;
+    cursor: pointer;
+}
+.inumakiestadopricipio{
+    transform: translateX(1180px) translateY(40px);
+    font-weight: 500;
+}
+.inumakiestadoactual{
+    transform: translateX(1186px) translateY(40px);
+    font-weight: 500;
+}
+.hidden {
+    display: none;
+}
+
+/* Contenido total de "Informacion Expandida" */
+
+.inumakiinformacionexpandida{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+/* Descripcion de "Informacion Expandida" */
+
+.inumakidescripcion{
+    margin-top: -93px;
+    text-align: justify;   
+}
+.inumakidescripcion p{
+    font-size: 19px;
+    transform: translateY(5px);
+}
+
+/* Apariencia y Personalidad de "Informacion Expandida" */
+
+.inumakiap_per{
+    transform: translateY(32px);
+    text-align: justify;   
+}
+.inumakiap_per p{
+    font-size: 19px;
+}
+.inumakiapariencia{
+    transform: translateY(5px);
+}
+.inumakipersonalidad{
+    transform: translateY(25px);
+}
+
+/* Habilidades y Poderes de "Informacion Expandida" */
+
+.inumakihab_pod{
+    transform: translateY(85px);
+    text-align: justify;   
+}
+.inumakihab_pod p{
+    font-size: 19px;
+}
+.inumakifuerza{
+    transform: translateY(5px);
+}
+.inumakivelocidadresistencia{
+    width: 810px;
+    transform: translateY(25px);
+}
+.inumakiskill{
+    transform: translateY(45px);
+    width: 810px;
+}
+.inumakiaprendiz{
+    transform: translateY(65px);
+}
+
+/* Imagen de Habilidades y Poderes de "Informacion Expandida" */
+
+.inumakihab_pod img{
+    width: 370px;
+    border-radius: 10px;
+    transform: translateX(831px) translateY(-224px);
+}
+
+/* Subtitulo para tecnicas de "Informacion Expandida" */
+
+.inumakihab_pod h2{
+    transform: translateY(-115px);
+}
+
+/* Lineas laterales de Tecnicas de MDEM de "Informacion Expandida" */
+
+.inumakilineas{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(-250px);
+}
+
+/* Lineas interiores de Tecnicas de MDEM de "Informacion Expandida" */
+
+.inumakisublineas{
+    transform: translateX(-55px) translateY(-370px);
+}
+
+/* Lineas laterales de Tecnicas Innatas de "Informacion Expandida" */
+
+.inumakilineas2{
+    position: relative;   
+      width: 100%;
+      overflow: visible; 
+      transform: translateY(68px);
+}
+
+/* Lineas interiores de Tecnicas Innatas de "Informacion Expandida" */
+
+.inumakisublineas2{
+    transform: translateX(-55px) translateY(-52px);
+}
+
+/* Lineas laterales por separado de Tecnicas de MDEM de "Informacion Expandida" */
+
+.inumakiblue-line-subtopA{
+    height: 50px;
+    background-color: #6205b9;
+    position: absolute;
+    top: 180px;
+    left: 88px;
+    width: 85%; 
+    z-index: 1000;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: white; 
+}
+.inumakiblue-line-subtopB{
+    height: 270px;
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 85px;
+    z-index: 1000;
+}
+.inumakiblue-line-subtopC{
+    height: 20px;
+    background-color: #6205b9;
+    top: 430px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.inumakiblue-line-subtopD{
+    height: 270px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 1097px;
+    z-index: 1000;
+}
+
+/* Lineas interiores por separado de Tecnicas de MDEM de "Informacion Expandida" */
+
+.inumakiblue-line-subtopB-1{
+    height: 220px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 350px;
+    left: 769px;
+    z-index: 1000;
+}
+
+/* Lineas laterales por separado de Tecnicas Innatas de "Informacion Expandida" */
+
+.inumakiblue-line-subtopB2{
+    height: 2270px;
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 85px;
+    z-index: 1000;
+}
+.inumakiblue-line-subtopC2{
+    height: 20px;
+    background-color: #6205b9;
+    top: 2430px;
+    left: 100px;
+    width: 84%;
+    position: absolute;
+    z-index: 1000;
+}
+.inumakiblue-line-subtopD2{
+    height: 2270px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 180px;
+    left: 1097px;
+    z-index: 1000;
+}
+
+/* Lineas interiores por separado de Tecnicas Innatas de "Informacion Expandida" */
+
+.inumakiblue-line-subtopA2-1{
+    height: 35px;
+    background-color: #6205b9;
+    top: 550px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.inumakiblue-line-subtopA2-2{
+    height: 20px;
+    background-color: #6205b9;
+    top: 785px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.inumakiblue-line-subtopA2-3{
+    height: 20px;
+    background-color: #6205b9;
+    top: 1005px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.inumakiblue-line-subtopA2-4{
+    height: 20px;
+    background-color: #6205b9;
+    top: 1226px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.inumakiblue-line-subtopA2-5{
+    height: 20px;
+    background-color: #6205b9;
+    top: 1447px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.inumakiblue-line-subtopA2-6{
+    height: 20px;
+    background-color: #6205b9;
+    top: 1667px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.inumakiblue-line-subtopA2-7{
+    height: 20px;
+    background-color: #6205b9;
+    top: 1887px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.inumakiblue-line-subtopA2-8{
+    height: 20px;
+    background-color: #6205b9;
+    top: 2108px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.inumakiblue-line-subtopA2-9{
+    height: 20px;
+    background-color: #6205b9;
+    top: 2329px;
+    left: 160px;
+    width: 83%;
+    position: absolute;
+    z-index: 1000;
+}
+.inumakiblue-line-subtopB2-1{
+    height: 2220px;  
+    width: 20px;
+    background-color: #6205b9;
+    position: absolute; 
+    top: 350px;
+    left: 769px;
+    z-index: 1000;
+}
+
+/* Subtitulos de cada apartado de tecnica de "Informacion Expandida" */
+
+.inumakilineassubtitulo{
+    font-size: 25px;
+    font-weight: 500;
+}
+.inumakilineassubtitulo2{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* Informacion Tecnicas de MDEM de "Informacion Expandida" */
+
+.inumakiinfo-todo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative;
+    transform: translateX(-160px);
+
+}
+
+/* Contenido Izquierda (Texto) */
+
+.inumakiinfo-left{
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+
+/* Contenido Derecha (Imagenes) */
+
+.inumakiinfo-right{
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+
+/* Informacion Tecnicas Innatas de "Informacion Expandida" */
+
+.inumakiinfo-todo2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    position: relative;
+    transform: translateX(-10px) translateY(7px);
+}
+      
+/* Contenido Izquierda (Texto) */
+
+.inumakiinfo-left2{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateX(9px) translateY(379px);
+}
+
+/* Contenido Derecha (Imagenes) */
+
+.inumakiinfo-right2{
+    flex-direction: column; 
+    justify-content: flex-start;
+    transform: translateX(9.5px) translateY(138px);
+}
+
+/* Imagenes de tecnicas de "Informacion Expandida" */
+
+.inumakitecnicas1{      
+    width: 300px;
+    transform: translateX(183px) translateY(81px);
+}
+.inumakitecnicas2{     
+    width: 300px;
+    transform: translateX(-117px) translateY(316px);
+}
+.inumakitecnicas3{      
+    width: 300px;
+    transform: translateX(183px) translateY(364px);
+}
+.inumakitecnicas4{     
+    width: 300px; 
+    transform: translateX(-117px) translateY(585px);
+}
+.inumakitecnicas5-1{
+    width: 300px; 
+    transform: translateX(183px) translateY(632px);
+}
+.inumakitecnicas6{
+    width: 300px; 
+    transform: translateX(-117px) translateY(853px);
+}
+.inumakitecnicas7{
+    width: 300px; 
+    transform: translateX(183px) translateY(899.5px);
+}
+.inumakitecnicas8{
+    width: 300px; 
+    transform: translateX(-117px) translateY(1120.5px);
+}
+.inumakitecnicas9{
+    width: 300px; 
+    transform: translateX(183px) translateY(1168.5px);
+}
+.inumakitecnicas10{
+    width: 300px; 
+    transform: translateX(-117px) translateY(1389.5px);
+}
+
+/* Informaciones de tecnicas de "Informacion Expandida" */
+
+.inumakicantidadenergia{
+    transform: translateX(118px) translateY(80px);
+}
+.inumakicantidadenergia p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.inumakidiscurso{
+    transform: translateX(118px) translateY(-161px);
+}
+.inumakidiscurso p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.inumakiestalla{
+    transform: translateX(118px) translateY(-50px);
+}
+.inumakiestalla p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.inumakiretuercete{
+    transform: translateX(118px) translateY(106px);
+}
+.inumakiretuercete p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.inumakiaplastate{
+    transform: translateX(118px) translateY(282px);
+}
+.inumakiaplastate p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.inumakialsuelo{
+    transform: translateX(118px) translateY(459px);
+}
+.inumakialsuelo p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.inumakidetente{
+    transform: translateX(118px) translateY(616px);
+}
+.inumakidetente p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.inumakiduermete{
+    transform: translateX(118px) translateY(792px);
+}
+.inumakiduermete p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.inumakiregresa{
+    transform: translateX(118px) translateY(948px);
+}
+.inumakiregresa p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.inumakihuyan{
+    transform: translateX(118px) translateY(1105px);
+}
+.inumakihuyan p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
+
+
+.inumakisalvolando{
+    transform: translateX(118px) translateY(1262px);
+}
+.inumakisalvolando p{
+    transform: translateX(0px) translateY(5px);
+    width: 583px;
+    text-align: justify;
+}
