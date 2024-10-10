@@ -34,13 +34,22 @@ const Tecnicas = () => {
           <p className="tecnicasmalditas">Tecnicas Malditas</p>
           <h1 className='tecnicasmalditas1'>Las tecnicas malditas son habilidades creadas a partir de energia maldita. Pueden ser usadas tanto por hechiceros como maldiciones. Hay diferentes tipos de ellas como Tecnicas Innatas, Tecnicas de Barrera, etc. </h1>
           <h1 className='tecnicasmalditas2'>Si comparamos la energia maldita como electricidad, las tecnicas malditas serian electrodomesticos que usamos para distintos usos. Para activar y usar una tecnica ritual normalmente se requiere hacer señales con las manos o usar encantamientos usando palabras. </h1>
+             
               <div className="tiposdetecnica">
+              
               <div className="tiposdetecnica-left">
+
                 <img src={manipulacionenergia} alt="" className='manipulacionenergia' onClick={TecnicasMDEM}/>          
                  <h3 className='tiposdetecnicasub'>Manipulación de Energia Maldita</h3>
+                 
+                 
+                 
                  <img src={tecnicabarrera} alt="" className='tecnicabarrera' onClick={TecnicasBARR}/>          
                  <h3 className='tiposdetecnicasub'>Tecnica de Barrera</h3>
                  </div>
+                 
+                 
+                 
                  <div className="tiposdetecnica-right">
                  <img src={tecnicainnata} alt="" className='tecnicainnata' onClick={TecnicasINN}/>          
                  <h3 className='tiposdetecnicasub'>Tecnica Innata</h3>

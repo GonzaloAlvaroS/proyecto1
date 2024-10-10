@@ -5,9 +5,9 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   base: '/proyecto1/',
   plugins: [react()],
-  preview: {
-    host: true,
-    port: 8080
+  server: {
+    host: '0.0.0.0',        
+    port: process.env.PORT || 3000,  
   }
-  });
+})
 

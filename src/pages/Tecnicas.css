@@ -35,6 +35,9 @@
     text-align: center;
     padding-top: 40px;
 }
+
+
+
 .tiposdetecnica{
     display: flex;
     align-items: flex-start;
@@ -49,6 +52,10 @@
     justify-content: flex-start;
     margin-right: 50px;
 }
+
+
+
+
 .tiposdetecnica-right{
     display: flex;
     flex-direction: column; 
@@ -61,12 +68,16 @@
     justify-content: center; /* Centra los hijos verticalmente si es necesario */
     text-align: center; /* Asegura que el texto dentro de cualquier hijo también esté centrado */
 }
+
+
 .tiposdetecnicasub{
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 10px;
 }
+
+
 .tiposdetecnicasub1{
     display: flex;
     align-items: center;
